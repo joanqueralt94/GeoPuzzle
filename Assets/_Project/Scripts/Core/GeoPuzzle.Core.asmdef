@@ -1,0 +1,6 @@
+{
+    "name": "GeoPuzzle.Core",
+    "rootNamespace": "GeoPuzzle.Core",
+    "references": ["GeoPuzzle.Data"],
+    "autoReferenced": true
+}

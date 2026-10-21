@@ -1,0 +1,6 @@
+{
+    "name": "GeoPuzzle.Quiz",
+    "rootNamespace": "GeoPuzzle.Quiz",
+    "references": ["GeoPuzzle.Data"],
+    "autoReferenced": true
+}
