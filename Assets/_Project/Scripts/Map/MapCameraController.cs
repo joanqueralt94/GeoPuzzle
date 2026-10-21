@@ -14,7 +14,7 @@ namespace GeoPuzzle.Map
     {
         [Tooltip("World-space rectangle the camera view must stay inside")]
         [SerializeField] Rect mapBounds = new Rect(-18f, -9f, 36f, 18f);
-        [SerializeField] float minOrthoSize = 0.5f;
+        [SerializeField] float minOrthoSize = 0.15f;
         [SerializeField] float maxOrthoSize = 9f;
         [SerializeField] float mouseWheelZoomSpeed = 0.1f;
         [SerializeField] float inertiaDamping = 6f;
@@ -27,6 +27,16 @@ namespace GeoPuzzle.Map
         void OnEnable() => EnhancedTouchSupport.Enable();
 
         void OnDisable() => EnhancedTouchSupport.Disable();
+
+        /// <summary>Limits panning to the given map area and zooms out to show all of it.</summary>
+        public void FitTo(Rect bounds)
+        {
+            mapBounds = bounds;
+            maxOrthoSize = bounds.height * 0.5f;
+            cam.orthographicSize = maxOrthoSize;
+            transform.position = new Vector3(bounds.center.x, bounds.center.y, transform.position.z);
+            velocity = Vector2.zero;
+        }
 
         void Update()
         {

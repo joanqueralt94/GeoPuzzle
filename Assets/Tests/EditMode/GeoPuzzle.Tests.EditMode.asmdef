@@ -6,6 +6,7 @@
         "UnityEditor.TestRunner",
         "GeoPuzzle.Core",
         "GeoPuzzle.Data",
+        "GeoPuzzle.Map",
         "GeoPuzzle.Quiz"
     ],
     "includePlatforms": ["Editor"],
