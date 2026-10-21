@@ -1,0 +1,16 @@
+{
+    "name": "GeoPuzzle.Tests.EditMode",
+    "rootNamespace": "GeoPuzzle.Tests",
+    "references": [
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner",
+        "GeoPuzzle.Core",
+        "GeoPuzzle.Data",
+        "GeoPuzzle.Quiz"
+    ],
+    "includePlatforms": ["Editor"],
+    "overrideReferences": true,
+    "precompiledReferences": ["nunit.framework.dll", "Newtonsoft.Json.dll"],
+    "autoReferenced": false,
+    "defineConstraints": ["UNITY_INCLUDE_TESTS"]
+}

@@ -1,0 +1,59 @@
+# GeoPuzzle
+
+A casual 2D geography trivia game for Android, built with Unity: one big world map, flags, and quiz questions.
+
+## First-time setup
+
+1. Install **Unity Hub**, then **Unity 6.3 LTS** with these modules:
+   - Android Build Support, with OpenJDK and Android SDK & NDK Tools
+   - Visual Studio or VS Code
+2. Install **Git LFS** (`git lfs install`), then clone this repo. GitHub Desktop handles LFS for you.
+3. In Unity Hub choose **Add > Add project from disk** and pick the cloned folder. If Hub warns about the editor version, pick your installed 6.3 LTS version.
+4. The first open takes a few minutes while Unity imports packages. If it asks to enable the new Input System backend, choose **Yes** and let it restart.
+5. Run **GeoPuzzle > Setup > Run Full Setup** from the menu bar. This applies the Android settings, sets text serialization, and creates the Boot, MainMenu and Game scenes.
+6. Create the 2D render pipeline once: **Assets > Create > Rendering > URP Asset (with 2D Renderer)** into `Assets/_Project/Settings`, then assign it under **Edit > Project Settings > Graphics** and **Quality**.
+7. Switch platform: **File > Build Profiles > Android > Switch Platform**.
+8. Commit everything Unity generated (`ProjectSettings/`, `Packages/packages-lock.json`, `.meta` files, scenes).
+
+Run the tests from **Window > General > Test Runner > EditMode**.
+
+## Building
+
+- **GeoPuzzle > Build > Android APK (test phone)**: a development APK in `Builds/Android` to install directly.
+- **GeoPuzzle > Build > Android App Bundle (Play)**: the `.aab` for Google Play. Needs an upload keystore set in Player Settings. Never commit the keystore.
+
+## Layout
+
+```
+Assets/_Project/
+  Scripts/Core   boot flow and shared services
+  Scripts/Data   country and question data models
+  Scripts/Map    world map camera, rendering, tap detection
+  Scripts/Quiz   question generation and rounds
+  Editor/        project setup and build menus
+  Data/          countries.json (sample for now), Config/economy_config.json
+  Art/ Audio/ Prefabs/ Scenes/ Settings/
+Assets/Tests/EditMode/   data and quiz tests
+Tools/map_pipeline/      offline Python scripts that build the world map data
+Tools/economy/           balance spreadsheet and its export script
+```
+
+## Game balance values
+
+Hearts, timers, lives, boosters, rewards, ads and prices live in `Tools/economy/economy_config.xlsx` (the Config sheet). After editing it, export to the file the game reads:
+
+```
+pip install openpyxl
+python3 Tools/economy/export_economy.py Tools/economy/economy_config.xlsx Assets/_Project/Data/Config/economy_config.json
+```
+
+Game code reads these through `GameServices.Config` (`GetInt`, `GetFloat`, `GetBool`, `GetString`) and never hardcodes them. Key names match Remote Config keys, so online overrides can be layered on later.
+
+## Data and credits
+
+- Country shapes: [Natural Earth](https://www.naturalearthdata.com/) (public domain)
+- Country facts: [Wikidata](https://www.wikidata.org/) (CC0)
+- Country names: [Unicode CLDR](https://cldr.unicode.org/) (Unicode licence)
+- Flags: [flag-icons](https://github.com/lipis/flag-icons) (MIT)
+
+`Assets/_Project/Data/countries.json` currently holds 8 sample countries. The map pipeline will generate the full list.

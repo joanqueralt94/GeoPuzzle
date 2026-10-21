@@ -1,0 +1,147 @@
+{
+  "countries": [
+    {
+      "id": "ESP",
+      "iso2": "ES",
+      "nameKey": "country.ESP",
+      "capitalKey": "capital.ESP",
+      "continent": "Europe",
+      "subregion": "Southern Europe",
+      "population": 48000000,
+      "areaKm2": 505990,
+      "neighbours": [
+        "PRT",
+        "FRA",
+        "AND"
+      ],
+      "flag": "flag_es",
+      "difficulty": 1,
+      "tags": [
+        "sample"
+      ]
+    },
+    {
+      "id": "PRT",
+      "iso2": "PT",
+      "nameKey": "country.PRT",
+      "capitalKey": "capital.PRT",
+      "continent": "Europe",
+      "subregion": "Southern Europe",
+      "population": 10400000,
+      "areaKm2": 92212,
+      "neighbours": [
+        "ESP"
+      ],
+      "flag": "flag_pt",
+      "difficulty": 1,
+      "tags": [
+        "sample"
+      ]
+    },
+    {
+      "id": "FRA",
+      "iso2": "FR",
+      "nameKey": "country.FRA",
+      "capitalKey": "capital.FRA",
+      "continent": "Europe",
+      "subregion": "Western Europe",
+      "population": 68000000,
+      "areaKm2": 551695,
+      "neighbours": [
+        "ESP",
+        "AND",
+        "MCO"
+      ],
+      "flag": "flag_fr",
+      "difficulty": 1,
+      "tags": [
+        "sample"
+      ]
+    },
+    {
+      "id": "AND",
+      "iso2": "AD",
+      "nameKey": "country.AND",
+      "capitalKey": "capital.AND",
+      "continent": "Europe",
+      "subregion": "Southern Europe",
+      "population": 80000,
+      "areaKm2": 468,
+      "neighbours": [
+        "ESP",
+        "FRA"
+      ],
+      "flag": "flag_ad",
+      "difficulty": 3,
+      "tags": [
+        "sample"
+      ]
+    },
+    {
+      "id": "MCO",
+      "iso2": "MC",
+      "nameKey": "country.MCO",
+      "capitalKey": "capital.MCO",
+      "continent": "Europe",
+      "subregion": "Western Europe",
+      "population": 38000,
+      "areaKm2": 2.02,
+      "neighbours": [
+        "FRA"
+      ],
+      "flag": "flag_mc",
+      "difficulty": 3,
+      "tags": [
+        "sample"
+      ]
+    },
+    {
+      "id": "JPN",
+      "iso2": "JP",
+      "nameKey": "country.JPN",
+      "capitalKey": "capital.JPN",
+      "continent": "Asia",
+      "subregion": "Eastern Asia",
+      "population": 124000000,
+      "areaKm2": 377975,
+      "neighbours": [],
+      "flag": "flag_jp",
+      "difficulty": 1,
+      "tags": [
+        "sample"
+      ]
+    },
+    {
+      "id": "KEN",
+      "iso2": "KE",
+      "nameKey": "country.KEN",
+      "capitalKey": "capital.KEN",
+      "continent": "Africa",
+      "subregion": "Eastern Africa",
+      "population": 55000000,
+      "areaKm2": 580367,
+      "neighbours": [],
+      "flag": "flag_ke",
+      "difficulty": 2,
+      "tags": [
+        "sample"
+      ]
+    },
+    {
+      "id": "PER",
+      "iso2": "PE",
+      "nameKey": "country.PER",
+      "capitalKey": "capital.PER",
+      "continent": "South America",
+      "subregion": "South America",
+      "population": 34000000,
+      "areaKm2": 1285216,
+      "neighbours": [],
+      "flag": "flag_pe",
+      "difficulty": 2,
+      "tags": [
+        "sample"
+      ]
+    }
+  ]
+}
