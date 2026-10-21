@@ -2,5 +2,7 @@
     "name": "GeoPuzzle.Core",
     "rootNamespace": "GeoPuzzle.Core",
     "references": ["GeoPuzzle.Data"],
+    "overrideReferences": true,
+    "precompiledReferences": ["Newtonsoft.Json.dll"],
     "autoReferenced": true
 }

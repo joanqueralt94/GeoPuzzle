@@ -31,11 +31,23 @@ Assets/_Project/
   Scripts/Map    world map camera, rendering, tap detection
   Scripts/Quiz   question generation and rounds
   Editor/        project setup and build menus
-  Data/          countries.json (sample for now), questions.json
+  Data/          countries.json (sample for now), Config/economy_config.json
   Art/ Audio/ Prefabs/ Scenes/ Settings/
 Assets/Tests/EditMode/   data and quiz tests
 Tools/map_pipeline/      offline Python scripts that build the world map data
+Tools/economy/           balance spreadsheet and its export script
 ```
+
+## Game balance values
+
+Hearts, timers, lives, boosters, rewards, ads and prices live in `Tools/economy/economy_config.xlsx` (the Config sheet). After editing it, export to the file the game reads:
+
+```
+pip install openpyxl
+python3 Tools/economy/export_economy.py Tools/economy/economy_config.xlsx Assets/_Project/Data/Config/economy_config.json
+```
+
+Game code reads these through `GameServices.Config` (`GetInt`, `GetFloat`, `GetBool`, `GetString`) and never hardcodes them. Key names match Remote Config keys, so online overrides can be layered on later.
 
 ## Data and credits
 

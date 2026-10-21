@@ -22,6 +22,7 @@ namespace GeoPuzzle.Editor
 
         const string ScenesFolder = "Assets/_Project/Scenes";
         const string CountriesJsonPath = "Assets/_Project/Data/countries.json";
+        const string EconomyConfigPath = "Assets/_Project/Data/Config/economy_config.json";
         static readonly string[] SceneNames = { "Boot", "MainMenu", "Game" };
 
         [MenuItem("GeoPuzzle/Setup/Run Full Setup", priority = 0)]
@@ -109,6 +110,8 @@ namespace GeoPuzzle.Editor
             var serialized = new SerializedObject(bootstrap);
             serialized.FindProperty("countriesJson").objectReferenceValue =
                 AssetDatabase.LoadAssetAtPath<TextAsset>(CountriesJsonPath);
+            serialized.FindProperty("economyConfigJson").objectReferenceValue =
+                AssetDatabase.LoadAssetAtPath<TextAsset>(EconomyConfigPath);
             serialized.ApplyModifiedPropertiesWithoutUndo();
         }
     }

@@ -1,3 +1,4 @@
+using System.Linq;
 using GeoPuzzle.Data;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -10,12 +11,13 @@ namespace GeoPuzzle.Core
         public const string MainMenuScene = "MainMenu";
 
         [SerializeField] TextAsset countriesJson;
+        [SerializeField] TextAsset economyConfigJson;
 
         void Start()
         {
-            if (countriesJson == null)
+            if (countriesJson == null || economyConfigJson == null)
             {
-                Debug.LogError("Bootstrap: countries.json is not assigned");
+                Debug.LogError("Bootstrap: countries.json or economy_config.json is not assigned");
                 return;
             }
 
@@ -23,8 +25,10 @@ namespace GeoPuzzle.Core
             foreach (var error in countries.Validate())
                 Debug.LogWarning($"Country data: {error}");
 
-            GameServices.Initialize(countries);
-            Debug.Log($"Bootstrap: loaded {countries.All.Count} countries");
+            var config = GameConfig.FromJson(economyConfigJson.text);
+
+            GameServices.Initialize(countries, config);
+            Debug.Log($"Bootstrap: loaded {countries.All.Count} countries and {config.Keys.Count()} config values");
             SceneManager.LoadScene(MainMenuScene);
         }
     }
