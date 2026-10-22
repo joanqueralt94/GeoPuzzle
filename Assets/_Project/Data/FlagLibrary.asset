@@ -1,0 +1,491 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3adabf8a5af8349e0b9d5732da0daa5a, type: 3}
+  m_Name: FlagLibrary
+  m_EditorClassIdentifier: GeoPuzzle.Core::GeoPuzzle.Core.FlagLibrary
+  entries:
+  - flag: flag_ad
+    sprite: {fileID: 21300000, guid: 5bf16b471d7de4b5999853d9f9d6f1af, type: 3}
+  - flag: flag_ae
+    sprite: {fileID: 21300000, guid: 2df8ad394821c4da189041e067dcadad, type: 3}
+  - flag: flag_af
+    sprite: {fileID: 21300000, guid: 41ec15d468ed443dbbfcdbe92d453a07, type: 3}
+  - flag: flag_ag
+    sprite: {fileID: 21300000, guid: 7fccbe65f025f47c2a81f576cf928d80, type: 3}
+  - flag: flag_ai
+    sprite: {fileID: 21300000, guid: 945a68344643b4e68910d09de8d5838f, type: 3}
+  - flag: flag_al
+    sprite: {fileID: 21300000, guid: 6a091c20e4b1645f3a2b6dcc864ac7a4, type: 3}
+  - flag: flag_am
+    sprite: {fileID: 21300000, guid: 44daa0d37c6cd45688b852763bfd393e, type: 3}
+  - flag: flag_ao
+    sprite: {fileID: 21300000, guid: 65e7b3425cc4f4eea84ec2d2bcb3a927, type: 3}
+  - flag: flag_ar
+    sprite: {fileID: 21300000, guid: 7940794671c414bc09664020b53951b5, type: 3}
+  - flag: flag_as
+    sprite: {fileID: 21300000, guid: e3ec985d980364c4f85379b38cfa028c, type: 3}
+  - flag: flag_at
+    sprite: {fileID: 21300000, guid: ef2b5b6bfecee4fd3ae8fba8ebe17db0, type: 3}
+  - flag: flag_au
+    sprite: {fileID: 21300000, guid: b5fc42448293a4ccca47ceadd5dd2d2d, type: 3}
+  - flag: flag_aw
+    sprite: {fileID: 21300000, guid: 60155985e9b0e4a268bab349464acc80, type: 3}
+  - flag: flag_ax
+    sprite: {fileID: 21300000, guid: f66798e699a414983b51a62742e0ce98, type: 3}
+  - flag: flag_az
+    sprite: {fileID: 21300000, guid: 9d7905efead204a8c8e3bb1408b36ca7, type: 3}
+  - flag: flag_ba
+    sprite: {fileID: 21300000, guid: e406b707641474f329d4f592fd11ccfa, type: 3}
+  - flag: flag_bb
+    sprite: {fileID: 21300000, guid: 38660b013cd0f43e58ff163ec60a7512, type: 3}
+  - flag: flag_bd
+    sprite: {fileID: 21300000, guid: f3551c30f349b4c12a51b8eaa5d16717, type: 3}
+  - flag: flag_be
+    sprite: {fileID: 21300000, guid: 6fba1b165d38243d0b3609616374fb7f, type: 3}
+  - flag: flag_bf
+    sprite: {fileID: 21300000, guid: 60b923f4dd0f242d486932972963b926, type: 3}
+  - flag: flag_bg
+    sprite: {fileID: 21300000, guid: 576641539745846cfabfe59ca3eca7fe, type: 3}
+  - flag: flag_bh
+    sprite: {fileID: 21300000, guid: 28ba87ad2dca64979aa569ddbd819e79, type: 3}
+  - flag: flag_bi
+    sprite: {fileID: 21300000, guid: f36ee8c878c174af890da3fea4f49c82, type: 3}
+  - flag: flag_bj
+    sprite: {fileID: 21300000, guid: 5c1db089290154761a4e2907a2152773, type: 3}
+  - flag: flag_bl
+    sprite: {fileID: 21300000, guid: 66ef296fd24a948e5adee77888e7db87, type: 3}
+  - flag: flag_bm
+    sprite: {fileID: 21300000, guid: fd2230c4429f544d09eeb6a01eb66e5e, type: 3}
+  - flag: flag_bn
+    sprite: {fileID: 21300000, guid: a289ca87bc6f649f0b32ff0a2126654e, type: 3}
+  - flag: flag_bo
+    sprite: {fileID: 21300000, guid: c866c5dda685e44b790d5167938f4d75, type: 3}
+  - flag: flag_br
+    sprite: {fileID: 21300000, guid: 0dcc216fc5db64e909aa55843f684ded, type: 3}
+  - flag: flag_bs
+    sprite: {fileID: 21300000, guid: ec888d9d2b9f44d4f81813f667b6c536, type: 3}
+  - flag: flag_bt
+    sprite: {fileID: 21300000, guid: f76f86a7fcbfa48fe82db9d9a5fa51e6, type: 3}
+  - flag: flag_bw
+    sprite: {fileID: 21300000, guid: a686e11eddf5d46499154183cfb1cdf7, type: 3}
+  - flag: flag_by
+    sprite: {fileID: 21300000, guid: b8858711bad484ee894bf18298ff18c7, type: 3}
+  - flag: flag_bz
+    sprite: {fileID: 21300000, guid: 900059cfc73dc44df9ca334077df93a7, type: 3}
+  - flag: flag_ca
+    sprite: {fileID: 21300000, guid: f09b8273471bd44829a81c983db03ce2, type: 3}
+  - flag: flag_cd
+    sprite: {fileID: 21300000, guid: 876e8ac04e9034611a1b8d4d35223d4c, type: 3}
+  - flag: flag_cf
+    sprite: {fileID: 21300000, guid: aee63128739b64fc7b27f263504b6cea, type: 3}
+  - flag: flag_cg
+    sprite: {fileID: 21300000, guid: 7a74ed6873d6c4901902dbaac44aa065, type: 3}
+  - flag: flag_ch
+    sprite: {fileID: 21300000, guid: ba34b95f385bd497e96d8bbd7ecd0f4c, type: 3}
+  - flag: flag_ci
+    sprite: {fileID: 21300000, guid: 14b391b8f18db41089cd414109732d01, type: 3}
+  - flag: flag_ck
+    sprite: {fileID: 21300000, guid: 970bc2e8829634d67bc82bccffaa5a77, type: 3}
+  - flag: flag_cl
+    sprite: {fileID: 21300000, guid: d4145381c43604df48c982d3c735de2d, type: 3}
+  - flag: flag_cm
+    sprite: {fileID: 21300000, guid: c8a9be33d0c8d407e82027127b1cff3a, type: 3}
+  - flag: flag_cn
+    sprite: {fileID: 21300000, guid: 24e436baef90e47a48c53380c2536bfe, type: 3}
+  - flag: flag_co
+    sprite: {fileID: 21300000, guid: 85969571943ff4733a628a492dcd15e3, type: 3}
+  - flag: flag_cr
+    sprite: {fileID: 21300000, guid: c7b91f6ee6feb46e4b14a47c29ed97ac, type: 3}
+  - flag: flag_cu
+    sprite: {fileID: 21300000, guid: 4a344702e0b5840dab74be856a8a9dbe, type: 3}
+  - flag: flag_cv
+    sprite: {fileID: 21300000, guid: a39ca9ddf8c814bd98443e43ae5c993a, type: 3}
+  - flag: flag_cw
+    sprite: {fileID: 21300000, guid: 1982b69ddf43245b48dae667dbaa3dd3, type: 3}
+  - flag: flag_cy
+    sprite: {fileID: 21300000, guid: 0cca8b3dc58d7474389a517f3e960935, type: 3}
+  - flag: flag_cz
+    sprite: {fileID: 21300000, guid: 4822ffb27faaf431e9e28878d1583dcc, type: 3}
+  - flag: flag_de
+    sprite: {fileID: 21300000, guid: d384bd7a7d5e444aeb09a484eec4c678, type: 3}
+  - flag: flag_dj
+    sprite: {fileID: 21300000, guid: d6a60e3727a1944eb8b87b3bc2de02e1, type: 3}
+  - flag: flag_dk
+    sprite: {fileID: 21300000, guid: aeebe3071431a4d10b923ddb213d8506, type: 3}
+  - flag: flag_dm
+    sprite: {fileID: 21300000, guid: 8a4aa783fa6f74954869077d4b7354f6, type: 3}
+  - flag: flag_do
+    sprite: {fileID: 21300000, guid: 0c15fd505517d465abc80eb0505fd012, type: 3}
+  - flag: flag_dz
+    sprite: {fileID: 21300000, guid: d39b612272d6545aeb2b07e77078ff94, type: 3}
+  - flag: flag_ec
+    sprite: {fileID: 21300000, guid: 7ded70ac52939424e9c2cb3b695e2c07, type: 3}
+  - flag: flag_ee
+    sprite: {fileID: 21300000, guid: 5c5986c497ae54ddc9b71bcf026e64b7, type: 3}
+  - flag: flag_eg
+    sprite: {fileID: 21300000, guid: cf7d768291f5c47468959f15c07aace7, type: 3}
+  - flag: flag_eh
+    sprite: {fileID: 21300000, guid: 5149d28a79d8a447bbe40fda73d43323, type: 3}
+  - flag: flag_er
+    sprite: {fileID: 21300000, guid: efe0120696a75420cb210de1fe6624b5, type: 3}
+  - flag: flag_es
+    sprite: {fileID: 21300000, guid: 814eea780407f4a83befc143d81fb874, type: 3}
+  - flag: flag_et
+    sprite: {fileID: 21300000, guid: ef6c1efd90dd5496bb5c8b898c5c3d3d, type: 3}
+  - flag: flag_fi
+    sprite: {fileID: 21300000, guid: a5783cc8a83084d2f9e2cbbd4944b987, type: 3}
+  - flag: flag_fj
+    sprite: {fileID: 21300000, guid: 3a9bcf91abf6c4d40b0bc6124ad8778c, type: 3}
+  - flag: flag_fk
+    sprite: {fileID: 21300000, guid: 135a018ea88c6470ba296e58b62a8e2f, type: 3}
+  - flag: flag_fm
+    sprite: {fileID: 21300000, guid: 835bdec8665a84413ad0250a34a7219b, type: 3}
+  - flag: flag_fo
+    sprite: {fileID: 21300000, guid: ff44fbb0b7e2f47dd819a4a6df17e6b9, type: 3}
+  - flag: flag_fr
+    sprite: {fileID: 21300000, guid: fcb9cbad7b96942e7b3c2e46694e7b48, type: 3}
+  - flag: flag_ga
+    sprite: {fileID: 21300000, guid: df419746667b0401ea9c0937ade1ef99, type: 3}
+  - flag: flag_gb
+    sprite: {fileID: 21300000, guid: 190109d240e614a15bf8b7f8865db0f8, type: 3}
+  - flag: flag_gd
+    sprite: {fileID: 21300000, guid: 9306c42041b484d65a48408ede65dd4b, type: 3}
+  - flag: flag_ge
+    sprite: {fileID: 21300000, guid: 34f70817e36b44ac1951de328385535d, type: 3}
+  - flag: flag_gg
+    sprite: {fileID: 21300000, guid: 729aaa7ddfa7a4e78aedb7e28406d70a, type: 3}
+  - flag: flag_gh
+    sprite: {fileID: 21300000, guid: f437156de2e1940cba6d9181e8c1827e, type: 3}
+  - flag: flag_gi
+    sprite: {fileID: 21300000, guid: 3004f4c74372d47c38bd1002e172ca25, type: 3}
+  - flag: flag_gl
+    sprite: {fileID: 21300000, guid: 95b897f5dbda04ff7aa5de64003ad63e, type: 3}
+  - flag: flag_gm
+    sprite: {fileID: 21300000, guid: 8c796bea1d9124574bdfeeaf45be65c8, type: 3}
+  - flag: flag_gn
+    sprite: {fileID: 21300000, guid: 97a393e83634640029457a4ab6c1f932, type: 3}
+  - flag: flag_gq
+    sprite: {fileID: 21300000, guid: 9cab2a5a3e373494a8ef7d829587bdbc, type: 3}
+  - flag: flag_gr
+    sprite: {fileID: 21300000, guid: d13426f87c4ce4ae981c8a60bd156494, type: 3}
+  - flag: flag_gs
+    sprite: {fileID: 21300000, guid: 56ca6d6baf11f4fde95d40690d5e018d, type: 3}
+  - flag: flag_gt
+    sprite: {fileID: 21300000, guid: fa648c9dcab2a443580165f9f9dd15c1, type: 3}
+  - flag: flag_gu
+    sprite: {fileID: 21300000, guid: b05fdd00cf5514bfc9613e203569aec6, type: 3}
+  - flag: flag_gw
+    sprite: {fileID: 21300000, guid: 1f62a208e6b8c4a199ace3d2cb0b8b97, type: 3}
+  - flag: flag_gy
+    sprite: {fileID: 21300000, guid: da8dd091cd997491e904d14b45003946, type: 3}
+  - flag: flag_hk
+    sprite: {fileID: 21300000, guid: 45b2c08959df44bc9ad69805bff8983c, type: 3}
+  - flag: flag_hm
+    sprite: {fileID: 21300000, guid: 890689c1c87a54fe3a34f1f8d2d1ecbd, type: 3}
+  - flag: flag_hn
+    sprite: {fileID: 21300000, guid: 9e08b4837a20642a380dc63a5f94c5e1, type: 3}
+  - flag: flag_hr
+    sprite: {fileID: 21300000, guid: a57037468ebbf4fde8962fe13e90aeed, type: 3}
+  - flag: flag_ht
+    sprite: {fileID: 21300000, guid: a2b6d06440d0545c0befbf116d976a37, type: 3}
+  - flag: flag_hu
+    sprite: {fileID: 21300000, guid: d7083c3db1f92456eb3cb68106091f49, type: 3}
+  - flag: flag_id
+    sprite: {fileID: 21300000, guid: 70e7ac8d8ff084c6eb5f0306d3d8af68, type: 3}
+  - flag: flag_ie
+    sprite: {fileID: 21300000, guid: 5472092451d27466aac5a36d2c3e0585, type: 3}
+  - flag: flag_il
+    sprite: {fileID: 21300000, guid: 0bc94b40c7af64d57aca2f8f7c8fb409, type: 3}
+  - flag: flag_im
+    sprite: {fileID: 21300000, guid: 0c8b38e04273c4cb29c2df9300f33ab9, type: 3}
+  - flag: flag_in
+    sprite: {fileID: 21300000, guid: ec707ef02486640cf8d8b337ba3ee6e0, type: 3}
+  - flag: flag_io
+    sprite: {fileID: 21300000, guid: 21f177ccbd18d47f4b6ea56a5fe7a00f, type: 3}
+  - flag: flag_iq
+    sprite: {fileID: 21300000, guid: af47dbf6e94834f63b7c5aaa031f92a6, type: 3}
+  - flag: flag_ir
+    sprite: {fileID: 21300000, guid: b7b39793df2584fbab7b4f793627027a, type: 3}
+  - flag: flag_is
+    sprite: {fileID: 21300000, guid: a413314601a3e439aa0e3e581364bda3, type: 3}
+  - flag: flag_it
+    sprite: {fileID: 21300000, guid: fad29a67d9be34299bdb97a82e8fc185, type: 3}
+  - flag: flag_je
+    sprite: {fileID: 21300000, guid: b73b1a557416942db8b17880926e0ad8, type: 3}
+  - flag: flag_jm
+    sprite: {fileID: 21300000, guid: 98572a96db7fc46928f9dbba3d594189, type: 3}
+  - flag: flag_jo
+    sprite: {fileID: 21300000, guid: bad5f51dff62e415181abd8feee7b60a, type: 3}
+  - flag: flag_jp
+    sprite: {fileID: 21300000, guid: 15c8f2fb78ebb47eea89d863d2b29244, type: 3}
+  - flag: flag_ke
+    sprite: {fileID: 21300000, guid: 2600355e1fa1c45f6b75c4640020a1f2, type: 3}
+  - flag: flag_kg
+    sprite: {fileID: 21300000, guid: 7b960766dbfd74973ad18e6c0c655bd6, type: 3}
+  - flag: flag_kh
+    sprite: {fileID: 21300000, guid: f94b68a6e427e474887e1865554629d9, type: 3}
+  - flag: flag_ki
+    sprite: {fileID: 21300000, guid: 355bf85a89b8f4d7d9b34875558ae449, type: 3}
+  - flag: flag_km
+    sprite: {fileID: 21300000, guid: eb69841a927c34245a5c1c7b59412049, type: 3}
+  - flag: flag_kn
+    sprite: {fileID: 21300000, guid: 7d0a330304298471993d39005b8d808f, type: 3}
+  - flag: flag_kp
+    sprite: {fileID: 21300000, guid: 1b4cde13bb50c4bbeb1b85b22fa081ac, type: 3}
+  - flag: flag_kr
+    sprite: {fileID: 21300000, guid: b2499ab0a05ba4d47bd83c05215f302b, type: 3}
+  - flag: flag_kw
+    sprite: {fileID: 21300000, guid: 0ae4985f6aa1c4b2b9ff8117632455a8, type: 3}
+  - flag: flag_ky
+    sprite: {fileID: 21300000, guid: 3d6c484452513485283e742db88ee7ab, type: 3}
+  - flag: flag_kz
+    sprite: {fileID: 21300000, guid: 26dfa3edf5ad44a1493d634a6e11cb4b, type: 3}
+  - flag: flag_la
+    sprite: {fileID: 21300000, guid: a2bb3e7a36ade44f0a1b78d7c5214ca1, type: 3}
+  - flag: flag_lb
+    sprite: {fileID: 21300000, guid: a943c938aa6f04676884a6c49d0020b0, type: 3}
+  - flag: flag_lc
+    sprite: {fileID: 21300000, guid: a931530bb606943f8a7b9d0dee074624, type: 3}
+  - flag: flag_li
+    sprite: {fileID: 21300000, guid: f6cd95b6f2e8a4625bd91c1301b6c9c0, type: 3}
+  - flag: flag_lk
+    sprite: {fileID: 21300000, guid: 093cc22a6101846d18f056182cfdc119, type: 3}
+  - flag: flag_lr
+    sprite: {fileID: 21300000, guid: 9073d653bcc09418bbea24d653db8d30, type: 3}
+  - flag: flag_ls
+    sprite: {fileID: 21300000, guid: 295673ca8e1494c448467f5ff11447f3, type: 3}
+  - flag: flag_lt
+    sprite: {fileID: 21300000, guid: 6d6dc669a26a94f4d8f9425dc5149a89, type: 3}
+  - flag: flag_lu
+    sprite: {fileID: 21300000, guid: 50394dc3a5c41475f9bf602b759fa928, type: 3}
+  - flag: flag_lv
+    sprite: {fileID: 21300000, guid: 6c2baa632c9014937a53734cf5ccaecf, type: 3}
+  - flag: flag_ly
+    sprite: {fileID: 21300000, guid: 9ad6293a0c0584c08a01dc62519223b4, type: 3}
+  - flag: flag_ma
+    sprite: {fileID: 21300000, guid: a044e126bf4634b098bb3b8155aa3cd2, type: 3}
+  - flag: flag_mc
+    sprite: {fileID: 21300000, guid: 1b7227f1561d6411cbcb9f1e906b803f, type: 3}
+  - flag: flag_md
+    sprite: {fileID: 21300000, guid: c0b70d83fb7974459bb3ede51b276b6b, type: 3}
+  - flag: flag_me
+    sprite: {fileID: 21300000, guid: 1e99741e3bf4244dab71c65867579207, type: 3}
+  - flag: flag_mf
+    sprite: {fileID: 21300000, guid: 1dd193f058ff845c9bcd067e071d56e9, type: 3}
+  - flag: flag_mg
+    sprite: {fileID: 21300000, guid: 4e57783b3b5dd4ed18491ef8c5ed39ce, type: 3}
+  - flag: flag_mh
+    sprite: {fileID: 21300000, guid: e327f524728a54585bd13950e1d6d747, type: 3}
+  - flag: flag_mk
+    sprite: {fileID: 21300000, guid: d97e7bb5a29854ce293e40737cc0345b, type: 3}
+  - flag: flag_ml
+    sprite: {fileID: 21300000, guid: 3ab4a8cd2343946ddae0da805eb1a53a, type: 3}
+  - flag: flag_mm
+    sprite: {fileID: 21300000, guid: 1a8af259d591348beb42cdf1369067af, type: 3}
+  - flag: flag_mn
+    sprite: {fileID: 21300000, guid: 84da1d344a7084be2aed8de795d3711e, type: 3}
+  - flag: flag_mo
+    sprite: {fileID: 21300000, guid: 38a85802b623546b2ab4cf4775c5101b, type: 3}
+  - flag: flag_mp
+    sprite: {fileID: 21300000, guid: 005339a0470f24558a5a54b8663dc372, type: 3}
+  - flag: flag_mr
+    sprite: {fileID: 21300000, guid: ecc577e1a4cf148188e6d9e855ffc213, type: 3}
+  - flag: flag_ms
+    sprite: {fileID: 21300000, guid: 0e02aba9d0a2a48fa9105c03a7ca27e0, type: 3}
+  - flag: flag_mt
+    sprite: {fileID: 21300000, guid: 91658175be6f4445da5298e433e4b8ca, type: 3}
+  - flag: flag_mu
+    sprite: {fileID: 21300000, guid: 44bab9bb8cd1143bfbb6de9ad878a58e, type: 3}
+  - flag: flag_mv
+    sprite: {fileID: 21300000, guid: 9b4c1f46b87d748f49e129da8bc34566, type: 3}
+  - flag: flag_mw
+    sprite: {fileID: 21300000, guid: 26e6cf0271fac4b9dbd94968b6f9963d, type: 3}
+  - flag: flag_mx
+    sprite: {fileID: 21300000, guid: ca51abc88467d48edb486cddd990c4fc, type: 3}
+  - flag: flag_my
+    sprite: {fileID: 21300000, guid: a5d7edd36570b451192d8f6a9cfa58f8, type: 3}
+  - flag: flag_mz
+    sprite: {fileID: 21300000, guid: e5e45935ba2eb4f48894b2a07ebfd7d3, type: 3}
+  - flag: flag_na
+    sprite: {fileID: 21300000, guid: 151617fd83d4d48ddb74a05eaff35f4a, type: 3}
+  - flag: flag_nc
+    sprite: {fileID: 21300000, guid: 1f2901d309176492b8b770979c2677d0, type: 3}
+  - flag: flag_ne
+    sprite: {fileID: 21300000, guid: bc589cdc4e7a14a8f92013366b4c1a38, type: 3}
+  - flag: flag_nf
+    sprite: {fileID: 21300000, guid: ba4f260cd602b4674a903ab956a63955, type: 3}
+  - flag: flag_ng
+    sprite: {fileID: 21300000, guid: 92535ba83bee74beeb1aef1dcf4d2586, type: 3}
+  - flag: flag_ni
+    sprite: {fileID: 21300000, guid: 4479e66d646e94d37b235a0e42d774c9, type: 3}
+  - flag: flag_nl
+    sprite: {fileID: 21300000, guid: 49abf96051e224e18a2858388133c6c3, type: 3}
+  - flag: flag_no
+    sprite: {fileID: 21300000, guid: 907b071037c08484ca5d78a4f57c53ae, type: 3}
+  - flag: flag_np
+    sprite: {fileID: 21300000, guid: 94281a39f60714ef7b1bf8b842b476c9, type: 3}
+  - flag: flag_nr
+    sprite: {fileID: 21300000, guid: a83c0357fa9ed4ed592a11bf041e2129, type: 3}
+  - flag: flag_nu
+    sprite: {fileID: 21300000, guid: 4d24cb8e9ff584d628137bca1b2572e1, type: 3}
+  - flag: flag_nz
+    sprite: {fileID: 21300000, guid: f9a03b8bed49f416da08c75a5f888521, type: 3}
+  - flag: flag_om
+    sprite: {fileID: 21300000, guid: 5d2437a78e58d49978d1a5df67aefab6, type: 3}
+  - flag: flag_pa
+    sprite: {fileID: 21300000, guid: 1c7948c0cc72f4d24a0a10a927ba4c43, type: 3}
+  - flag: flag_pe
+    sprite: {fileID: 21300000, guid: 6f9a910b14ba04e1ea287a48af662264, type: 3}
+  - flag: flag_pf
+    sprite: {fileID: 21300000, guid: 5d3be0e07b3c3440fbab84a02db560dd, type: 3}
+  - flag: flag_pg
+    sprite: {fileID: 21300000, guid: c86e30bcb09e94ca1897094f71cec844, type: 3}
+  - flag: flag_ph
+    sprite: {fileID: 21300000, guid: 7194ee22c4de84b1ebe22a3d4fe10743, type: 3}
+  - flag: flag_pk
+    sprite: {fileID: 21300000, guid: 267355c4df2f240b3b50bc518c4e0c4a, type: 3}
+  - flag: flag_pl
+    sprite: {fileID: 21300000, guid: 7efd0eb0ed6ab435c8c2134cd98ad6e7, type: 3}
+  - flag: flag_pm
+    sprite: {fileID: 21300000, guid: 2df82d4ac5e3e41889017779b10a50be, type: 3}
+  - flag: flag_pn
+    sprite: {fileID: 21300000, guid: 22b8fa097267f410da93981b3c9bf367, type: 3}
+  - flag: flag_pr
+    sprite: {fileID: 21300000, guid: 68c5f17bb87824b068cb3eba1b441f5c, type: 3}
+  - flag: flag_ps
+    sprite: {fileID: 21300000, guid: 4898a4a3844f443b3839eaa813d37b73, type: 3}
+  - flag: flag_pt
+    sprite: {fileID: 21300000, guid: dee65518240e2428588c0ba7fb02bcb0, type: 3}
+  - flag: flag_pw
+    sprite: {fileID: 21300000, guid: 07d029436409e4d6bb8c69586b16c7c2, type: 3}
+  - flag: flag_py
+    sprite: {fileID: 21300000, guid: 10a1b254f30954b8c93e2ce2d7856b54, type: 3}
+  - flag: flag_qa
+    sprite: {fileID: 21300000, guid: 67c8d33ccffd14a229446f2dd070ec87, type: 3}
+  - flag: flag_ro
+    sprite: {fileID: 21300000, guid: 3ac563928bf804293b8a44de3f84665b, type: 3}
+  - flag: flag_rs
+    sprite: {fileID: 21300000, guid: 252fd6824ffff4eedb8d5dbdf2aae0ff, type: 3}
+  - flag: flag_ru
+    sprite: {fileID: 21300000, guid: 84740ffd938604505ad615f4e5ec622f, type: 3}
+  - flag: flag_rw
+    sprite: {fileID: 21300000, guid: caa6c7c8049bd4e0fa4fd64f2b0582ba, type: 3}
+  - flag: flag_sa
+    sprite: {fileID: 21300000, guid: 7568e3eeeeafb4c77a9bc6097652e227, type: 3}
+  - flag: flag_sb
+    sprite: {fileID: 21300000, guid: 193412cec54ed4e88b3688c745573138, type: 3}
+  - flag: flag_sc
+    sprite: {fileID: 21300000, guid: b1c3883f4d57f45ecb75d20eb7745ea9, type: 3}
+  - flag: flag_sd
+    sprite: {fileID: 21300000, guid: 97ffbfeea6b474ccda071330dec61ce6, type: 3}
+  - flag: flag_se
+    sprite: {fileID: 21300000, guid: 63afd0e1db0254c96bf9636514044fa1, type: 3}
+  - flag: flag_sg
+    sprite: {fileID: 21300000, guid: 9d3389d3b186844688e04305b612adfb, type: 3}
+  - flag: flag_sh
+    sprite: {fileID: 21300000, guid: cc317370307394c33ad21951da8e91d3, type: 3}
+  - flag: flag_si
+    sprite: {fileID: 21300000, guid: e15fc71095dc247dcb4f99fadd0f46bc, type: 3}
+  - flag: flag_sk
+    sprite: {fileID: 21300000, guid: 8bada069a0b204095803f6c805c6f3ab, type: 3}
+  - flag: flag_sl
+    sprite: {fileID: 21300000, guid: 6693e39dffab34a158fbeae582377a5a, type: 3}
+  - flag: flag_sm
+    sprite: {fileID: 21300000, guid: a268312319aaa464fb0afc8c8d79d28e, type: 3}
+  - flag: flag_sn
+    sprite: {fileID: 21300000, guid: 5872f576523094750b31fca86597094e, type: 3}
+  - flag: flag_so
+    sprite: {fileID: 21300000, guid: 12a7b794589fc4a81bbb487fbdf7c904, type: 3}
+  - flag: flag_sr
+    sprite: {fileID: 21300000, guid: ae61657bda26b44018815cab8996d74f, type: 3}
+  - flag: flag_ss
+    sprite: {fileID: 21300000, guid: 7f8e55d2d45404d3ebafe5e0be2ddc45, type: 3}
+  - flag: flag_st
+    sprite: {fileID: 21300000, guid: d23417a5c634246919bb9dc7049b721e, type: 3}
+  - flag: flag_sv
+    sprite: {fileID: 21300000, guid: 4e3864bb8e001428d9f6929ea097382b, type: 3}
+  - flag: flag_sx
+    sprite: {fileID: 21300000, guid: ca585d029884343d0af7f428877a4046, type: 3}
+  - flag: flag_sy
+    sprite: {fileID: 21300000, guid: cf18e9fe976804cb198a87dd31750108, type: 3}
+  - flag: flag_sz
+    sprite: {fileID: 21300000, guid: 46995a1b52e6f4acfbe38bebaac53321, type: 3}
+  - flag: flag_tc
+    sprite: {fileID: 21300000, guid: 53d695031002f453890f1744ecb006bf, type: 3}
+  - flag: flag_td
+    sprite: {fileID: 21300000, guid: af215155c27834bf2871f323bfe6cf85, type: 3}
+  - flag: flag_tf
+    sprite: {fileID: 21300000, guid: 68d84a0b395c84c92ad630c648f66cad, type: 3}
+  - flag: flag_tg
+    sprite: {fileID: 21300000, guid: 4fac72e14b0db41a1b9656752026bbec, type: 3}
+  - flag: flag_th
+    sprite: {fileID: 21300000, guid: 61cfbf5cc06f3443cb07fa36fde78d13, type: 3}
+  - flag: flag_tj
+    sprite: {fileID: 21300000, guid: ee4295d0a2639416d8c154b6cdfe4b10, type: 3}
+  - flag: flag_tl
+    sprite: {fileID: 21300000, guid: b8e1f27c8f9334956bda56d60fc928e8, type: 3}
+  - flag: flag_tm
+    sprite: {fileID: 21300000, guid: eed185edbe46a47f9999aa653ddb833a, type: 3}
+  - flag: flag_tn
+    sprite: {fileID: 21300000, guid: 2d86eb413f304477db02b0b6d963ecba, type: 3}
+  - flag: flag_to
+    sprite: {fileID: 21300000, guid: 178b3ae05070c4327952d6ad4f60890c, type: 3}
+  - flag: flag_tr
+    sprite: {fileID: 21300000, guid: 34588c79b82234ecca0a67799807e2f2, type: 3}
+  - flag: flag_tt
+    sprite: {fileID: 21300000, guid: 22d3331224424477fb6a0768785554e3, type: 3}
+  - flag: flag_tv
+    sprite: {fileID: 21300000, guid: 2849613c9be8444caa9501e4a0323655, type: 3}
+  - flag: flag_tw
+    sprite: {fileID: 21300000, guid: ae96f226faff641629c702a40098daad, type: 3}
+  - flag: flag_tz
+    sprite: {fileID: 21300000, guid: 32ee966f8ce084999a28291f4020eb14, type: 3}
+  - flag: flag_ua
+    sprite: {fileID: 21300000, guid: e9395a4a0d4e6478fb55a106e09fd570, type: 3}
+  - flag: flag_ug
+    sprite: {fileID: 21300000, guid: 660f36c15cdcc424f8980c95c53eecf7, type: 3}
+  - flag: flag_um
+    sprite: {fileID: 21300000, guid: 5eea687521e7e4d1abf7ce040bad94d9, type: 3}
+  - flag: flag_us
+    sprite: {fileID: 21300000, guid: 3fa38bf4a53884a2e98a168494878960, type: 3}
+  - flag: flag_uy
+    sprite: {fileID: 21300000, guid: 3e0e5c079ce664bdda755e579c064363, type: 3}
+  - flag: flag_uz
+    sprite: {fileID: 21300000, guid: 337f861a566454f02a0e8c6de508ae1e, type: 3}
+  - flag: flag_va
+    sprite: {fileID: 21300000, guid: bb49cf79754a84c9ab56374361c0fe8a, type: 3}
+  - flag: flag_vc
+    sprite: {fileID: 21300000, guid: acfba7899618e4708b02bfff2a7b9298, type: 3}
+  - flag: flag_ve
+    sprite: {fileID: 21300000, guid: 73d0676a6d7a6461292c932546a07839, type: 3}
+  - flag: flag_vg
+    sprite: {fileID: 21300000, guid: d52958b141a3d4518b4be6c32f8da581, type: 3}
+  - flag: flag_vi
+    sprite: {fileID: 21300000, guid: 1e772d706e8434de7b8b7ac34d544903, type: 3}
+  - flag: flag_vn
+    sprite: {fileID: 21300000, guid: 5db5e29196bdb401a93b0ecb072ecbe7, type: 3}
+  - flag: flag_vu
+    sprite: {fileID: 21300000, guid: d250fbcb8e3b54f5e9e835a58ae96e1d, type: 3}
+  - flag: flag_wf
+    sprite: {fileID: 21300000, guid: a66efadc1091b437681773726341e284, type: 3}
+  - flag: flag_ws
+    sprite: {fileID: 21300000, guid: 5039b455206a6450883c3cded0056b7c, type: 3}
+  - flag: flag_xk
+    sprite: {fileID: 21300000, guid: 50abd94e475314e6e8be655b33388146, type: 3}
+  - flag: flag_ye
+    sprite: {fileID: 21300000, guid: 4b4de11650f004c16831cc6bf9e7ac01, type: 3}
+  - flag: flag_za
+    sprite: {fileID: 21300000, guid: 2788e80150c6b46f6a9976a619370de3, type: 3}
+  - flag: flag_zm
+    sprite: {fileID: 21300000, guid: b57ccb73cf2ea42ddadeaa92a492328f, type: 3}
+  - flag: flag_zw
+    sprite: {fileID: 21300000, guid: 45edf7f8d55954e8aaf6a8dbb8823c23, type: 3}
