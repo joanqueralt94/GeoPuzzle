@@ -1,61 +1,118 @@
 {
   "countries": [
     {
-      "id": "ESP",
-      "iso2": "ES",
-      "nameKey": "country.ESP",
-      "capitalKey": "capital.ESP",
-      "continent": "Europe",
-      "subregion": "Southern Europe",
-      "population": 48000000,
-      "areaKm2": 505990,
-      "neighbours": [
-        "PRT",
-        "FRA",
-        "AND"
-      ],
-      "flag": "flag_es",
+      "id": "ABW",
+      "iso2": "AW",
+      "nameKey": "country.ABW",
+      "capitalKey": "capital.ABW",
+      "continent": "North America",
+      "subregion": "Caribbean",
+      "population": 106314,
+      "areaKm2": 117,
+      "neighbours": [],
+      "flag": "flag_aw",
       "difficulty": 1,
       "tags": [
-        "sample"
+        "territory",
+        "country"
       ]
     },
     {
-      "id": "PRT",
-      "iso2": "PT",
-      "nameKey": "country.PRT",
-      "capitalKey": "capital.PRT",
-      "continent": "Europe",
-      "subregion": "Southern Europe",
-      "population": 10400000,
-      "areaKm2": 92212,
+      "id": "AFG",
+      "iso2": "AF",
+      "nameKey": "country.AFG",
+      "capitalKey": "capital.AFG",
+      "continent": "Asia",
+      "subregion": "Southern Asia",
+      "population": 38041754,
+      "areaKm2": 642215,
       "neighbours": [
-        "ESP"
+        "CHN",
+        "IRN",
+        "PAK",
+        "TJK",
+        "TKM",
+        "UZB"
       ],
-      "flag": "flag_pt",
+      "flag": "flag_af",
       "difficulty": 1,
       "tags": [
-        "sample"
+        "sovereign"
       ]
     },
     {
-      "id": "FRA",
-      "iso2": "FR",
-      "nameKey": "country.FRA",
-      "capitalKey": "capital.FRA",
-      "continent": "Europe",
-      "subregion": "Western Europe",
-      "population": 68000000,
-      "areaKm2": 551695,
+      "id": "AGO",
+      "iso2": "AO",
+      "nameKey": "country.AGO",
+      "capitalKey": "capital.AGO",
+      "continent": "Africa",
+      "subregion": "Middle Africa",
+      "population": 31825295,
+      "areaKm2": 1249023,
       "neighbours": [
-        "ESP",
-        "AND",
-        "MCO"
+        "COD",
+        "COG",
+        "NAM",
+        "ZMB"
       ],
-      "flag": "flag_fr",
+      "flag": "flag_ao",
       "difficulty": 1,
       "tags": [
-        "sample"
+        "sovereign"
+      ]
+    },
+    {
+      "id": "AIA",
+      "iso2": "AI",
+      "nameKey": "country.AIA",
+      "capitalKey": "capital.AIA",
+      "continent": "North America",
+      "subregion": "Caribbean",
+      "population": 14731,
+      "areaKm2": 30.44,
+      "neighbours": [],
+      "flag": "flag_ai",
+      "difficulty": 1,
+      "tags": [
+        "dependency"
+      ]
+    },
+    {
+      "id": "ALA",
+      "iso2": "AX",
+      "nameKey": "country.ALA",
+      "capitalKey": "capital.ALA",
+      "continent": "Europe",
+      "subregion": "Northern Europe",
+      "population": 29884,
+      "areaKm2": 423,
+      "neighbours": [],
+      "flag": "flag_ax",
+      "difficulty": 1,
+      "tags": [
+        "territory",
+        "country"
+      ]
+    },
+    {
+      "id": "ALB",
+      "iso2": "AL",
+      "nameKey": "country.ALB",
+      "capitalKey": "capital.ALB",
+      "continent": "Europe",
+      "subregion": "Southern Europe",
+      "population": 2854191,
+      "areaKm2": 27933,
+      "neighbours": [
+        "GRC",
+        "KOS",
+        "MKD",
+        "MNE"
+      ],
+      "flag": "flag_al",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
       ]
     },
     {
@@ -65,8 +122,8 @@
       "capitalKey": "capital.AND",
       "continent": "Europe",
       "subregion": "Southern Europe",
-      "population": 80000,
-      "areaKm2": 468,
+      "population": 77142,
+      "areaKm2": 337,
       "neighbours": [
         "ESP",
         "FRA"
@@ -74,25 +131,1997 @@
       "flag": "flag_ad",
       "difficulty": 3,
       "tags": [
-        "sample"
+        "sovereign"
       ]
     },
     {
-      "id": "MCO",
-      "iso2": "MC",
-      "nameKey": "country.MCO",
-      "capitalKey": "capital.MCO",
+      "id": "ARE",
+      "iso2": "AE",
+      "nameKey": "country.ARE",
+      "capitalKey": "capital.ARE",
+      "continent": "Asia",
+      "subregion": "Western Asia",
+      "population": 9770529,
+      "areaKm2": 70657,
+      "neighbours": [
+        "OMN",
+        "SAU"
+      ],
+      "flag": "flag_ae",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "ARG",
+      "iso2": "AR",
+      "nameKey": "country.ARG",
+      "capitalKey": "capital.ARG",
+      "continent": "South America",
+      "subregion": "South America",
+      "population": 44938712,
+      "areaKm2": 2783471,
+      "neighbours": [
+        "BOL",
+        "BRA",
+        "CHL",
+        "PRY",
+        "URY"
+      ],
+      "flag": "flag_ar",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "ARM",
+      "iso2": "AM",
+      "nameKey": "country.ARM",
+      "capitalKey": "capital.ARM",
+      "continent": "Asia",
+      "subregion": "Western Asia",
+      "population": 2957731,
+      "areaKm2": 29890,
+      "neighbours": [
+        "AZE",
+        "GEO",
+        "IRN",
+        "TUR"
+      ],
+      "flag": "flag_am",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "ASM",
+      "iso2": "AS",
+      "nameKey": "country.ASM",
+      "capitalKey": "capital.ASM",
+      "continent": "Oceania",
+      "subregion": "Polynesia",
+      "population": 55312,
+      "areaKm2": 134,
+      "neighbours": [],
+      "flag": "flag_as",
+      "difficulty": 1,
+      "tags": [
+        "dependency"
+      ]
+    },
+    {
+      "id": "ATF",
+      "iso2": "TF",
+      "nameKey": "country.ATF",
+      "capitalKey": "capital.ATF",
+      "continent": "Seven seas (open ocean)",
+      "subregion": "Seven seas (open ocean)",
+      "population": 140,
+      "areaKm2": 6525,
+      "neighbours": [],
+      "flag": "flag_tf",
+      "difficulty": 1,
+      "tags": [
+        "dependency"
+      ]
+    },
+    {
+      "id": "ATG",
+      "iso2": "AG",
+      "nameKey": "country.ATG",
+      "capitalKey": "capital.ATG",
+      "continent": "North America",
+      "subregion": "Caribbean",
+      "population": 97118,
+      "areaKm2": 147,
+      "neighbours": [],
+      "flag": "flag_ag",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "AUS",
+      "iso2": "AU",
+      "nameKey": "country.AUS",
+      "capitalKey": "capital.AUS",
+      "continent": "Oceania",
+      "subregion": "Australia and New Zealand",
+      "population": 25364307,
+      "areaKm2": 7700820,
+      "neighbours": [],
+      "flag": "flag_au",
+      "difficulty": 1,
+      "tags": [
+        "sovereign",
+        "country"
+      ]
+    },
+    {
+      "id": "AUT",
+      "iso2": "AT",
+      "nameKey": "country.AUT",
+      "capitalKey": "capital.AUT",
       "continent": "Europe",
       "subregion": "Western Europe",
-      "population": 38000,
-      "areaKm2": 2.02,
+      "population": 8877067,
+      "areaKm2": 84023,
       "neighbours": [
-        "FRA"
+        "CHE",
+        "CZE",
+        "DEU",
+        "HUN",
+        "ITA",
+        "LIE",
+        "SVK",
+        "SVN"
       ],
-      "flag": "flag_mc",
-      "difficulty": 3,
+      "flag": "flag_at",
+      "difficulty": 1,
       "tags": [
-        "sample"
+        "sovereign"
+      ]
+    },
+    {
+      "id": "AZE",
+      "iso2": "AZ",
+      "nameKey": "country.AZE",
+      "capitalKey": "capital.AZE",
+      "continent": "Asia",
+      "subregion": "Western Asia",
+      "population": 10023318,
+      "areaKm2": 85722,
+      "neighbours": [
+        "ARM",
+        "GEO",
+        "IRN",
+        "RUS",
+        "TUR"
+      ],
+      "flag": "flag_az",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "BDI",
+      "iso2": "BI",
+      "nameKey": "country.BDI",
+      "capitalKey": "capital.BDI",
+      "continent": "Africa",
+      "subregion": "Eastern Africa",
+      "population": 11530580,
+      "areaKm2": 26927,
+      "neighbours": [
+        "COD",
+        "RWA",
+        "TZA"
+      ],
+      "flag": "flag_bi",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "BEL",
+      "iso2": "BE",
+      "nameKey": "country.BEL",
+      "capitalKey": "capital.BEL",
+      "continent": "Europe",
+      "subregion": "Western Europe",
+      "population": 11484055,
+      "areaKm2": 31127,
+      "neighbours": [
+        "DEU",
+        "FRA",
+        "LUX",
+        "NLD"
+      ],
+      "flag": "flag_be",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "BEN",
+      "iso2": "BJ",
+      "nameKey": "country.BEN",
+      "capitalKey": "capital.BEN",
+      "continent": "Africa",
+      "subregion": "Western Africa",
+      "population": 11801151,
+      "areaKm2": 116540,
+      "neighbours": [
+        "BFA",
+        "NER",
+        "NGA",
+        "TGO"
+      ],
+      "flag": "flag_bj",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "BFA",
+      "iso2": "BF",
+      "nameKey": "country.BFA",
+      "capitalKey": "capital.BFA",
+      "continent": "Africa",
+      "subregion": "Western Africa",
+      "population": 20321378,
+      "areaKm2": 273340,
+      "neighbours": [
+        "BEN",
+        "CIV",
+        "GHA",
+        "MLI",
+        "NER",
+        "TGO"
+      ],
+      "flag": "flag_bf",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "BGD",
+      "iso2": "BD",
+      "nameKey": "country.BGD",
+      "capitalKey": "capital.BGD",
+      "continent": "Asia",
+      "subregion": "Southern Asia",
+      "population": 163046161,
+      "areaKm2": 136643,
+      "neighbours": [
+        "IND",
+        "MMR"
+      ],
+      "flag": "flag_bd",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "BGR",
+      "iso2": "BG",
+      "nameKey": "country.BGR",
+      "capitalKey": "capital.BGR",
+      "continent": "Europe",
+      "subregion": "Eastern Europe",
+      "population": 6975761,
+      "areaKm2": 112404,
+      "neighbours": [
+        "GRC",
+        "MKD",
+        "ROU",
+        "SRB",
+        "TUR"
+      ],
+      "flag": "flag_bg",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "BHR",
+      "iso2": "BH",
+      "nameKey": "country.BHR",
+      "capitalKey": "capital.BHR",
+      "continent": "Asia",
+      "subregion": "Western Asia",
+      "population": 1641172,
+      "areaKm2": 419,
+      "neighbours": [],
+      "flag": "flag_bh",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "BHS",
+      "iso2": "BS",
+      "nameKey": "country.BHS",
+      "capitalKey": "capital.BHS",
+      "continent": "North America",
+      "subregion": "Caribbean",
+      "population": 389482,
+      "areaKm2": 8195,
+      "neighbours": [],
+      "flag": "flag_bs",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "BIH",
+      "iso2": "BA",
+      "nameKey": "country.BIH",
+      "capitalKey": "capital.BIH",
+      "continent": "Europe",
+      "subregion": "Southern Europe",
+      "population": 3301000,
+      "areaKm2": 51572,
+      "neighbours": [
+        "HRV",
+        "MNE",
+        "SRB"
+      ],
+      "flag": "flag_ba",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "BLM",
+      "iso2": "BL",
+      "nameKey": "country.BLM",
+      "capitalKey": "capital.BLM",
+      "continent": "North America",
+      "subregion": "Caribbean",
+      "population": 9961,
+      "areaKm2": 15.61,
+      "neighbours": [],
+      "flag": "flag_bl",
+      "difficulty": 1,
+      "tags": [
+        "dependency"
+      ]
+    },
+    {
+      "id": "BLR",
+      "iso2": "BY",
+      "nameKey": "country.BLR",
+      "capitalKey": "capital.BLR",
+      "continent": "Europe",
+      "subregion": "Eastern Europe",
+      "population": 9466856,
+      "areaKm2": 206862,
+      "neighbours": [
+        "LTU",
+        "LVA",
+        "POL",
+        "RUS",
+        "UKR"
+      ],
+      "flag": "flag_by",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "BLZ",
+      "iso2": "BZ",
+      "nameKey": "country.BLZ",
+      "capitalKey": "capital.BLZ",
+      "continent": "North America",
+      "subregion": "Central America",
+      "population": 390353,
+      "areaKm2": 21934,
+      "neighbours": [
+        "GTM",
+        "MEX"
+      ],
+      "flag": "flag_bz",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "BMU",
+      "iso2": "BM",
+      "nameKey": "country.BMU",
+      "capitalKey": "capital.BMU",
+      "continent": "North America",
+      "subregion": "Northern America",
+      "population": 63918,
+      "areaKm2": 20.05,
+      "neighbours": [],
+      "flag": "flag_bm",
+      "difficulty": 1,
+      "tags": [
+        "dependency"
+      ]
+    },
+    {
+      "id": "BOL",
+      "iso2": "BO",
+      "nameKey": "country.BOL",
+      "capitalKey": "capital.BOL",
+      "continent": "South America",
+      "subregion": "South America",
+      "population": 11513100,
+      "areaKm2": 1090213,
+      "neighbours": [
+        "ARG",
+        "BRA",
+        "CHL",
+        "PER",
+        "PRY"
+      ],
+      "flag": "flag_bo",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "BRA",
+      "iso2": "BR",
+      "nameKey": "country.BRA",
+      "capitalKey": "capital.BRA",
+      "continent": "South America",
+      "subregion": "South America",
+      "population": 211049527,
+      "areaKm2": 8506237,
+      "neighbours": [
+        "ARG",
+        "BOL",
+        "COL",
+        "FRA",
+        "GUY",
+        "PER",
+        "PRY",
+        "SUR",
+        "URY",
+        "VEN"
+      ],
+      "flag": "flag_br",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "BRB",
+      "iso2": "BB",
+      "nameKey": "country.BRB",
+      "capitalKey": "capital.BRB",
+      "continent": "North America",
+      "subregion": "Caribbean",
+      "population": 287025,
+      "areaKm2": 326,
+      "neighbours": [],
+      "flag": "flag_bb",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "BRN",
+      "iso2": "BN",
+      "nameKey": "country.BRN",
+      "capitalKey": "capital.BRN",
+      "continent": "Asia",
+      "subregion": "South-Eastern Asia",
+      "population": 433285,
+      "areaKm2": 5397,
+      "neighbours": [
+        "MYS"
+      ],
+      "flag": "flag_bn",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "BTN",
+      "iso2": "BT",
+      "nameKey": "country.BTN",
+      "capitalKey": "capital.BTN",
+      "continent": "Asia",
+      "subregion": "Southern Asia",
+      "population": 763092,
+      "areaKm2": 40469,
+      "neighbours": [
+        "CHN",
+        "IND"
+      ],
+      "flag": "flag_bt",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "BWA",
+      "iso2": "BW",
+      "nameKey": "country.BWA",
+      "capitalKey": "capital.BWA",
+      "continent": "Africa",
+      "subregion": "Southern Africa",
+      "population": 2303697,
+      "areaKm2": 580551,
+      "neighbours": [
+        "NAM",
+        "ZAF",
+        "ZWE"
+      ],
+      "flag": "flag_bw",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "CAF",
+      "iso2": "CF",
+      "nameKey": "country.CAF",
+      "capitalKey": "capital.CAF",
+      "continent": "Africa",
+      "subregion": "Middle Africa",
+      "population": 4745185,
+      "areaKm2": 620660,
+      "neighbours": [
+        "CMR",
+        "COD",
+        "COG",
+        "SDN",
+        "SSD",
+        "TCD"
+      ],
+      "flag": "flag_cf",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "CAN",
+      "iso2": "CA",
+      "nameKey": "country.CAN",
+      "capitalKey": "capital.CAN",
+      "continent": "North America",
+      "subregion": "Northern America",
+      "population": 37589262,
+      "areaKm2": 9914993,
+      "neighbours": [
+        "USA"
+      ],
+      "flag": "flag_ca",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "CHE",
+      "iso2": "CH",
+      "nameKey": "country.CHE",
+      "capitalKey": "capital.CHE",
+      "continent": "Europe",
+      "subregion": "Western Europe",
+      "population": 8574832,
+      "areaKm2": 40703,
+      "neighbours": [
+        "AUT",
+        "DEU",
+        "FRA",
+        "ITA",
+        "LIE"
+      ],
+      "flag": "flag_ch",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "CHL",
+      "iso2": "CL",
+      "nameKey": "country.CHL",
+      "capitalKey": "capital.CHL",
+      "continent": "South America",
+      "subregion": "South America",
+      "population": 18952038,
+      "areaKm2": 726500,
+      "neighbours": [
+        "ARG",
+        "BOL",
+        "PER"
+      ],
+      "flag": "flag_cl",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "CHN",
+      "iso2": "CN",
+      "nameKey": "country.CHN",
+      "capitalKey": "capital.CHN",
+      "continent": "Asia",
+      "subregion": "Eastern Asia",
+      "population": 1397715000,
+      "areaKm2": 9372731,
+      "neighbours": [
+        "AFG",
+        "BTN",
+        "HKG",
+        "IND",
+        "KAZ",
+        "KGZ",
+        "LAO",
+        "MMR",
+        "MNG",
+        "NPL",
+        "PAK",
+        "PRK",
+        "RUS",
+        "TJK",
+        "VNM"
+      ],
+      "flag": "flag_cn",
+      "difficulty": 1,
+      "tags": [
+        "sovereign",
+        "country"
+      ]
+    },
+    {
+      "id": "CIV",
+      "iso2": "CI",
+      "nameKey": "country.CIV",
+      "capitalKey": "capital.CIV",
+      "continent": "Africa",
+      "subregion": "Western Africa",
+      "population": 25716544,
+      "areaKm2": 322913,
+      "neighbours": [
+        "BFA",
+        "GHA",
+        "GIN",
+        "LBR",
+        "MLI"
+      ],
+      "flag": "flag_ci",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "CMR",
+      "iso2": "CM",
+      "nameKey": "country.CMR",
+      "capitalKey": "capital.CMR",
+      "continent": "Africa",
+      "subregion": "Middle Africa",
+      "population": 25876380,
+      "areaKm2": 466267,
+      "neighbours": [
+        "CAF",
+        "COG",
+        "GAB",
+        "GNQ",
+        "NGA",
+        "TCD"
+      ],
+      "flag": "flag_cm",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "COD",
+      "iso2": "CD",
+      "nameKey": "country.COD",
+      "capitalKey": "capital.COD",
+      "continent": "Africa",
+      "subregion": "Middle Africa",
+      "population": 86790567,
+      "areaKm2": 2335885,
+      "neighbours": [
+        "AGO",
+        "BDI",
+        "CAF",
+        "COG",
+        "RWA",
+        "SSD",
+        "TZA",
+        "UGA",
+        "ZMB"
+      ],
+      "flag": "flag_cd",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "COG",
+      "iso2": "CG",
+      "nameKey": "country.COG",
+      "capitalKey": "capital.COG",
+      "continent": "Africa",
+      "subregion": "Middle Africa",
+      "population": 5380508,
+      "areaKm2": 346421,
+      "neighbours": [
+        "AGO",
+        "CAF",
+        "CMR",
+        "COD",
+        "GAB"
+      ],
+      "flag": "flag_cg",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "COK",
+      "iso2": "CK",
+      "nameKey": "country.COK",
+      "capitalKey": "capital.COK",
+      "continent": "Oceania",
+      "subregion": "Polynesia",
+      "population": 17459,
+      "areaKm2": 49.03,
+      "neighbours": [],
+      "flag": "flag_ck",
+      "difficulty": 1,
+      "tags": [
+        "dependency"
+      ]
+    },
+    {
+      "id": "COL",
+      "iso2": "CO",
+      "nameKey": "country.COL",
+      "capitalKey": "capital.COL",
+      "continent": "South America",
+      "subregion": "South America",
+      "population": 50339443,
+      "areaKm2": 1139248,
+      "neighbours": [
+        "BRA",
+        "ECU",
+        "PAN",
+        "PER",
+        "VEN"
+      ],
+      "flag": "flag_co",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "COM",
+      "iso2": "KM",
+      "nameKey": "country.COM",
+      "capitalKey": "capital.COM",
+      "continent": "Africa",
+      "subregion": "Eastern Africa",
+      "population": 850886,
+      "areaKm2": 1081,
+      "neighbours": [],
+      "flag": "flag_km",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "CPV",
+      "iso2": "CV",
+      "nameKey": "country.CPV",
+      "capitalKey": "capital.CPV",
+      "continent": "Africa",
+      "subregion": "Western Africa",
+      "population": 549935,
+      "areaKm2": 2521,
+      "neighbours": [],
+      "flag": "flag_cv",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "CRI",
+      "iso2": "CR",
+      "nameKey": "country.CRI",
+      "capitalKey": "capital.CRI",
+      "continent": "North America",
+      "subregion": "Central America",
+      "population": 5047561,
+      "areaKm2": 51371,
+      "neighbours": [
+        "NIC",
+        "PAN"
+      ],
+      "flag": "flag_cr",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "CUB",
+      "iso2": "CU",
+      "nameKey": "country.CUB",
+      "capitalKey": "capital.CUB",
+      "continent": "North America",
+      "subregion": "Caribbean",
+      "population": 11333483,
+      "areaKm2": 108082,
+      "neighbours": [],
+      "flag": "flag_cu",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "CUW",
+      "iso2": "CW",
+      "nameKey": "country.CUW",
+      "capitalKey": "capital.CUW",
+      "continent": "North America",
+      "subregion": "Caribbean",
+      "population": 157538,
+      "areaKm2": 376,
+      "neighbours": [],
+      "flag": "flag_cw",
+      "difficulty": 1,
+      "tags": [
+        "territory",
+        "country"
+      ]
+    },
+    {
+      "id": "CYM",
+      "iso2": "KY",
+      "nameKey": "country.CYM",
+      "capitalKey": "capital.CYM",
+      "continent": "North America",
+      "subregion": "Caribbean",
+      "population": 64948,
+      "areaKm2": 116,
+      "neighbours": [],
+      "flag": "flag_ky",
+      "difficulty": 1,
+      "tags": [
+        "dependency"
+      ]
+    },
+    {
+      "id": "CYP",
+      "iso2": "CY",
+      "nameKey": "country.CYP",
+      "capitalKey": "capital.CYP",
+      "continent": "Asia",
+      "subregion": "Western Asia",
+      "population": 1198575,
+      "areaKm2": 5235,
+      "neighbours": [],
+      "flag": "flag_cy",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "CZE",
+      "iso2": "CZ",
+      "nameKey": "country.CZE",
+      "capitalKey": "capital.CZE",
+      "continent": "Europe",
+      "subregion": "Eastern Europe",
+      "population": 10669709,
+      "areaKm2": 78709,
+      "neighbours": [
+        "AUT",
+        "DEU",
+        "POL",
+        "SVK"
+      ],
+      "flag": "flag_cz",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "DEU",
+      "iso2": "DE",
+      "nameKey": "country.DEU",
+      "capitalKey": "capital.DEU",
+      "continent": "Europe",
+      "subregion": "Western Europe",
+      "population": 83132799,
+      "areaKm2": 354947,
+      "neighbours": [
+        "AUT",
+        "BEL",
+        "CHE",
+        "CZE",
+        "DNK",
+        "FRA",
+        "LUX",
+        "NLD",
+        "POL"
+      ],
+      "flag": "flag_de",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "DJI",
+      "iso2": "DJ",
+      "nameKey": "country.DJI",
+      "capitalKey": "capital.DJI",
+      "continent": "Africa",
+      "subregion": "Eastern Africa",
+      "population": 973560,
+      "areaKm2": 22032,
+      "neighbours": [
+        "ERI",
+        "ETH"
+      ],
+      "flag": "flag_dj",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "DMA",
+      "iso2": "DM",
+      "nameKey": "country.DMA",
+      "capitalKey": "capital.DMA",
+      "continent": "North America",
+      "subregion": "Caribbean",
+      "population": 71808,
+      "areaKm2": 755,
+      "neighbours": [],
+      "flag": "flag_dm",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "DNK",
+      "iso2": "DK",
+      "nameKey": "country.DNK",
+      "capitalKey": "capital.DNK",
+      "continent": "Europe",
+      "subregion": "Northern Europe",
+      "population": 5818553,
+      "areaKm2": 40583,
+      "neighbours": [
+        "DEU"
+      ],
+      "flag": "flag_dk",
+      "difficulty": 1,
+      "tags": [
+        "sovereign",
+        "country"
+      ]
+    },
+    {
+      "id": "DOM",
+      "iso2": "DO",
+      "nameKey": "country.DOM",
+      "capitalKey": "capital.DOM",
+      "continent": "North America",
+      "subregion": "Caribbean",
+      "population": 10738958,
+      "areaKm2": 48388,
+      "neighbours": [
+        "HTI"
+      ],
+      "flag": "flag_do",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "DZA",
+      "iso2": "DZ",
+      "nameKey": "country.DZA",
+      "capitalKey": "capital.DZA",
+      "continent": "Africa",
+      "subregion": "Northern Africa",
+      "population": 43053054,
+      "areaKm2": 2312910,
+      "neighbours": [
+        "ESH",
+        "LBY",
+        "MAR",
+        "MLI",
+        "MRT",
+        "NER",
+        "TUN"
+      ],
+      "flag": "flag_dz",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "ECU",
+      "iso2": "EC",
+      "nameKey": "country.ECU",
+      "capitalKey": "capital.ECU",
+      "continent": "South America",
+      "subregion": "South America",
+      "population": 17373662,
+      "areaKm2": 255978,
+      "neighbours": [
+        "COL",
+        "PER"
+      ],
+      "flag": "flag_ec",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "EGY",
+      "iso2": "EG",
+      "nameKey": "country.EGY",
+      "capitalKey": "capital.EGY",
+      "continent": "Africa",
+      "subregion": "Northern Africa",
+      "population": 100388073,
+      "areaKm2": 1002322,
+      "neighbours": [
+        "ISR",
+        "LBY",
+        "PSE",
+        "SDN"
+      ],
+      "flag": "flag_eg",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "ERI",
+      "iso2": "ER",
+      "nameKey": "country.ERI",
+      "capitalKey": "capital.ERI",
+      "continent": "Africa",
+      "subregion": "Eastern Africa",
+      "population": 6081196,
+      "areaKm2": 122745,
+      "neighbours": [
+        "DJI",
+        "ETH",
+        "SDN"
+      ],
+      "flag": "flag_er",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "ESH",
+      "iso2": "EH",
+      "nameKey": "country.ESH",
+      "capitalKey": "capital.ESH",
+      "continent": "Africa",
+      "subregion": "Northern Africa",
+      "population": 603253,
+      "areaKm2": 90712,
+      "neighbours": [
+        "DZA",
+        "MAR",
+        "MRT"
+      ],
+      "flag": "flag_eh",
+      "difficulty": 1,
+      "tags": [
+        "indeterminate"
+      ]
+    },
+    {
+      "id": "ESP",
+      "iso2": "ES",
+      "nameKey": "country.ESP",
+      "capitalKey": "capital.ESP",
+      "continent": "Europe",
+      "subregion": "Southern Europe",
+      "population": 47076781,
+      "areaKm2": 505669,
+      "neighbours": [
+        "AND",
+        "FRA",
+        "GIB",
+        "PRT"
+      ],
+      "flag": "flag_es",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "EST",
+      "iso2": "EE",
+      "nameKey": "country.EST",
+      "capitalKey": "capital.EST",
+      "continent": "Europe",
+      "subregion": "Northern Europe",
+      "population": 1326590,
+      "areaKm2": 45053,
+      "neighbours": [
+        "LVA",
+        "RUS"
+      ],
+      "flag": "flag_ee",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "ETH",
+      "iso2": "ET",
+      "nameKey": "country.ETH",
+      "capitalKey": "capital.ETH",
+      "continent": "Africa",
+      "subregion": "Eastern Africa",
+      "population": 112078730,
+      "areaKm2": 1131602,
+      "neighbours": [
+        "DJI",
+        "ERI",
+        "KEN",
+        "SDN",
+        "SOM",
+        "SSD"
+      ],
+      "flag": "flag_et",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "FIN",
+      "iso2": "FI",
+      "nameKey": "country.FIN",
+      "capitalKey": "capital.FIN",
+      "continent": "Europe",
+      "subregion": "Northern Europe",
+      "population": 5520314,
+      "areaKm2": 329804,
+      "neighbours": [
+        "NOR",
+        "RUS",
+        "SWE"
+      ],
+      "flag": "flag_fi",
+      "difficulty": 1,
+      "tags": [
+        "sovereign",
+        "country"
+      ]
+    },
+    {
+      "id": "FJI",
+      "iso2": "FJ",
+      "nameKey": "country.FJI",
+      "capitalKey": "capital.FJI",
+      "continent": "Oceania",
+      "subregion": "Melanesia",
+      "population": 889953,
+      "areaKm2": 17136,
+      "neighbours": [],
+      "flag": "flag_fj",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "FLK",
+      "iso2": "FK",
+      "nameKey": "country.FLK",
+      "capitalKey": "capital.FLK",
+      "continent": "South America",
+      "subregion": "South America",
+      "population": 3398,
+      "areaKm2": 10938,
+      "neighbours": [],
+      "flag": "flag_fk",
+      "difficulty": 1,
+      "tags": [
+        "disputed"
+      ]
+    },
+    {
+      "id": "FRA",
+      "iso2": "FR",
+      "nameKey": "country.FRA",
+      "capitalKey": "capital.FRA",
+      "continent": "Europe",
+      "subregion": "Western Europe",
+      "population": 67059887,
+      "areaKm2": 635359,
+      "neighbours": [
+        "AND",
+        "BEL",
+        "BRA",
+        "CHE",
+        "DEU",
+        "ESP",
+        "ITA",
+        "LUX",
+        "MCO",
+        "SUR"
+      ],
+      "flag": "flag_fr",
+      "difficulty": 1,
+      "tags": [
+        "sovereign",
+        "country"
+      ]
+    },
+    {
+      "id": "FRO",
+      "iso2": "FO",
+      "nameKey": "country.FRO",
+      "capitalKey": "capital.FRO",
+      "continent": "Europe",
+      "subregion": "Northern Europe",
+      "population": 48678,
+      "areaKm2": 461,
+      "neighbours": [],
+      "flag": "flag_fo",
+      "difficulty": 1,
+      "tags": [
+        "dependency"
+      ]
+    },
+    {
+      "id": "FSM",
+      "iso2": "FM",
+      "nameKey": "country.FSM",
+      "capitalKey": "capital.FSM",
+      "continent": "Oceania",
+      "subregion": "Micronesia",
+      "population": 113815,
+      "areaKm2": 215,
+      "neighbours": [],
+      "flag": "flag_fm",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "GAB",
+      "iso2": "GA",
+      "nameKey": "country.GAB",
+      "capitalKey": "capital.GAB",
+      "continent": "Africa",
+      "subregion": "Middle Africa",
+      "population": 2172579,
+      "areaKm2": 261596,
+      "neighbours": [
+        "CMR",
+        "COG",
+        "GNQ"
+      ],
+      "flag": "flag_ga",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "GBR",
+      "iso2": "GB",
+      "nameKey": "country.GBR",
+      "capitalKey": "capital.GBR",
+      "continent": "Europe",
+      "subregion": "Northern Europe",
+      "population": 66834405,
+      "areaKm2": 241711,
+      "neighbours": [
+        "IRL"
+      ],
+      "flag": "flag_gb",
+      "difficulty": 1,
+      "tags": [
+        "sovereign",
+        "country"
+      ]
+    },
+    {
+      "id": "GEO",
+      "iso2": "GE",
+      "nameKey": "country.GEO",
+      "capitalKey": "capital.GEO",
+      "continent": "Asia",
+      "subregion": "Western Asia",
+      "population": 3720382,
+      "areaKm2": 69639,
+      "neighbours": [
+        "ARM",
+        "AZE",
+        "RUS",
+        "TUR"
+      ],
+      "flag": "flag_ge",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "GGY",
+      "iso2": "GG",
+      "nameKey": "country.GGY",
+      "capitalKey": "capital.GGY",
+      "continent": "Europe",
+      "subregion": "Northern Europe",
+      "population": 62792,
+      "areaKm2": 32.17,
+      "neighbours": [],
+      "flag": "flag_gg",
+      "difficulty": 1,
+      "tags": [
+        "territory",
+        "country"
+      ]
+    },
+    {
+      "id": "GHA",
+      "iso2": "GH",
+      "nameKey": "country.GHA",
+      "capitalKey": "capital.GHA",
+      "continent": "Africa",
+      "subregion": "Western Africa",
+      "population": 30417856,
+      "areaKm2": 239645,
+      "neighbours": [
+        "BFA",
+        "CIV",
+        "TGO"
+      ],
+      "flag": "flag_gh",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "GIB",
+      "iso2": "GI",
+      "nameKey": "country.GIB",
+      "capitalKey": "capital.GIB",
+      "continent": "Europe",
+      "subregion": "Southern Europe",
+      "population": 33701,
+      "areaKm2": 3.1,
+      "neighbours": [
+        "ESP"
+      ],
+      "flag": "flag_gi",
+      "difficulty": 1,
+      "tags": [
+        "disputed"
+      ]
+    },
+    {
+      "id": "GIN",
+      "iso2": "GN",
+      "nameKey": "country.GIN",
+      "capitalKey": "capital.GIN",
+      "continent": "Africa",
+      "subregion": "Western Africa",
+      "population": 12771246,
+      "areaKm2": 244932,
+      "neighbours": [
+        "CIV",
+        "GNB",
+        "LBR",
+        "MLI",
+        "SEN",
+        "SLE"
+      ],
+      "flag": "flag_gn",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "GMB",
+      "iso2": "GM",
+      "nameKey": "country.GMB",
+      "capitalKey": "capital.GMB",
+      "continent": "Africa",
+      "subregion": "Western Africa",
+      "population": 2347706,
+      "areaKm2": 11097,
+      "neighbours": [
+        "SEN"
+      ],
+      "flag": "flag_gm",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "GNB",
+      "iso2": "GW",
+      "nameKey": "country.GNB",
+      "capitalKey": "capital.GNB",
+      "continent": "Africa",
+      "subregion": "Western Africa",
+      "population": 1920922,
+      "areaKm2": 33036,
+      "neighbours": [
+        "GIN",
+        "SEN"
+      ],
+      "flag": "flag_gw",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "GNQ",
+      "iso2": "GQ",
+      "nameKey": "country.GNQ",
+      "capitalKey": "capital.GNQ",
+      "continent": "Africa",
+      "subregion": "Middle Africa",
+      "population": 1355986,
+      "areaKm2": 26702,
+      "neighbours": [
+        "CMR",
+        "GAB"
+      ],
+      "flag": "flag_gq",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "GRC",
+      "iso2": "GR",
+      "nameKey": "country.GRC",
+      "capitalKey": "capital.GRC",
+      "continent": "Europe",
+      "subregion": "Southern Europe",
+      "population": 10716322,
+      "areaKm2": 125377,
+      "neighbours": [
+        "ALB",
+        "BGR",
+        "MKD",
+        "TUR"
+      ],
+      "flag": "flag_gr",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "GRD",
+      "iso2": "GD",
+      "nameKey": "country.GRD",
+      "capitalKey": "capital.GRD",
+      "continent": "North America",
+      "subregion": "Caribbean",
+      "population": 112003,
+      "areaKm2": 179,
+      "neighbours": [],
+      "flag": "flag_gd",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "GRL",
+      "iso2": "GL",
+      "nameKey": "country.GRL",
+      "capitalKey": "capital.GRL",
+      "continent": "North America",
+      "subregion": "Northern America",
+      "population": 56225,
+      "areaKm2": 2151613,
+      "neighbours": [],
+      "flag": "flag_gl",
+      "difficulty": 1,
+      "tags": [
+        "territory",
+        "country"
+      ]
+    },
+    {
+      "id": "GTM",
+      "iso2": "GT",
+      "nameKey": "country.GTM",
+      "capitalKey": "capital.GTM",
+      "continent": "North America",
+      "subregion": "Central America",
+      "population": 16604026,
+      "areaKm2": 109092,
+      "neighbours": [
+        "BLZ",
+        "HND",
+        "MEX",
+        "SLV"
+      ],
+      "flag": "flag_gt",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "GUM",
+      "iso2": "GU",
+      "nameKey": "country.GUM",
+      "capitalKey": "capital.GUM",
+      "continent": "Oceania",
+      "subregion": "Micronesia",
+      "population": 167294,
+      "areaKm2": 357,
+      "neighbours": [],
+      "flag": "flag_gu",
+      "difficulty": 1,
+      "tags": [
+        "dependency"
+      ]
+    },
+    {
+      "id": "GUY",
+      "iso2": "GY",
+      "nameKey": "country.GUY",
+      "capitalKey": "capital.GUY",
+      "continent": "South America",
+      "subregion": "South America",
+      "population": 782766,
+      "areaKm2": 211837,
+      "neighbours": [
+        "BRA",
+        "SUR",
+        "VEN"
+      ],
+      "flag": "flag_gy",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "HKG",
+      "iso2": "HK",
+      "nameKey": "country.HKG",
+      "capitalKey": "capital.HKG",
+      "continent": "Asia",
+      "subregion": "Eastern Asia",
+      "population": 7507400,
+      "areaKm2": 716,
+      "neighbours": [
+        "CHN"
+      ],
+      "flag": "flag_hk",
+      "difficulty": 1,
+      "tags": [
+        "territory",
+        "country"
+      ]
+    },
+    {
+      "id": "HMD",
+      "iso2": "HM",
+      "nameKey": "country.HMD",
+      "capitalKey": "capital.HMD",
+      "continent": "Seven seas (open ocean)",
+      "subregion": "Seven seas (open ocean)",
+      "population": 0,
+      "areaKm2": 289,
+      "neighbours": [],
+      "flag": "flag_hm",
+      "difficulty": 1,
+      "tags": [
+        "dependency"
+      ]
+    },
+    {
+      "id": "HND",
+      "iso2": "HN",
+      "nameKey": "country.HND",
+      "capitalKey": "capital.HND",
+      "continent": "North America",
+      "subregion": "Central America",
+      "population": 9746117,
+      "areaKm2": 112519,
+      "neighbours": [
+        "GTM",
+        "NIC",
+        "SLV"
+      ],
+      "flag": "flag_hn",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "HRV",
+      "iso2": "HR",
+      "nameKey": "country.HRV",
+      "capitalKey": "capital.HRV",
+      "continent": "Europe",
+      "subregion": "Southern Europe",
+      "population": 4067500,
+      "areaKm2": 52516,
+      "neighbours": [
+        "BIH",
+        "HUN",
+        "MNE",
+        "SRB",
+        "SVN"
+      ],
+      "flag": "flag_hr",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "HTI",
+      "iso2": "HT",
+      "nameKey": "country.HTI",
+      "capitalKey": "capital.HTI",
+      "continent": "North America",
+      "subregion": "Caribbean",
+      "population": 11263077,
+      "areaKm2": 26565,
+      "neighbours": [
+        "DOM"
+      ],
+      "flag": "flag_ht",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "HUN",
+      "iso2": "HU",
+      "nameKey": "country.HUN",
+      "capitalKey": "capital.HUN",
+      "continent": "Europe",
+      "subregion": "Eastern Europe",
+      "population": 9769949,
+      "areaKm2": 92889,
+      "neighbours": [
+        "AUT",
+        "HRV",
+        "ROU",
+        "SRB",
+        "SVK",
+        "SVN",
+        "UKR"
+      ],
+      "flag": "flag_hu",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "IDN",
+      "iso2": "ID",
+      "nameKey": "country.IDN",
+      "capitalKey": "capital.IDN",
+      "continent": "Asia",
+      "subregion": "South-Eastern Asia",
+      "population": 270625568,
+      "areaKm2": 1866574,
+      "neighbours": [
+        "MYS",
+        "PNG",
+        "TLS"
+      ],
+      "flag": "flag_id",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "IMN",
+      "iso2": "IM",
+      "nameKey": "country.IMN",
+      "capitalKey": "capital.IMN",
+      "continent": "Europe",
+      "subregion": "Northern Europe",
+      "population": 84584,
+      "areaKm2": 539,
+      "neighbours": [],
+      "flag": "flag_im",
+      "difficulty": 1,
+      "tags": [
+        "territory",
+        "country"
+      ]
+    },
+    {
+      "id": "IND",
+      "iso2": "IN",
+      "nameKey": "country.IND",
+      "capitalKey": "capital.IND",
+      "continent": "Asia",
+      "subregion": "Southern Asia",
+      "population": 1366417754,
+      "areaKm2": 3159977,
+      "neighbours": [
+        "BGD",
+        "BTN",
+        "CHN",
+        "MMR",
+        "NPL",
+        "PAK"
+      ],
+      "flag": "flag_in",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "IOT",
+      "iso2": "IO",
+      "nameKey": "country.IOT",
+      "capitalKey": "capital.IOT",
+      "continent": "Seven seas (open ocean)",
+      "subregion": "Seven seas (open ocean)",
+      "population": 3000,
+      "areaKm2": 26.07,
+      "neighbours": [],
+      "flag": "flag_io",
+      "difficulty": 1,
+      "tags": [
+        "disputed"
+      ]
+    },
+    {
+      "id": "IRL",
+      "iso2": "IE",
+      "nameKey": "country.IRL",
+      "capitalKey": "capital.IRL",
+      "continent": "Europe",
+      "subregion": "Northern Europe",
+      "population": 4941444,
+      "areaKm2": 69381,
+      "neighbours": [
+        "GBR"
+      ],
+      "flag": "flag_ie",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "IRN",
+      "iso2": "IR",
+      "nameKey": "country.IRN",
+      "capitalKey": "capital.IRN",
+      "continent": "Asia",
+      "subregion": "Southern Asia",
+      "population": 82913906,
+      "areaKm2": 1622661,
+      "neighbours": [
+        "AFG",
+        "ARM",
+        "AZE",
+        "IRQ",
+        "PAK",
+        "TKM",
+        "TUR"
+      ],
+      "flag": "flag_ir",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "IRQ",
+      "iso2": "IQ",
+      "nameKey": "country.IRQ",
+      "capitalKey": "capital.IRQ",
+      "continent": "Asia",
+      "subregion": "Western Asia",
+      "population": 39309783,
+      "areaKm2": 437934,
+      "neighbours": [
+        "IRN",
+        "JOR",
+        "KWT",
+        "SAU",
+        "SYR",
+        "TUR"
+      ],
+      "flag": "flag_iq",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "ISL",
+      "iso2": "IS",
+      "nameKey": "country.ISL",
+      "capitalKey": "capital.ISL",
+      "continent": "Europe",
+      "subregion": "Northern Europe",
+      "population": 361313,
+      "areaKm2": 103913,
+      "neighbours": [],
+      "flag": "flag_is",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "ISR",
+      "iso2": "IL",
+      "nameKey": "country.ISR",
+      "capitalKey": "capital.ISR",
+      "continent": "Asia",
+      "subregion": "Western Asia",
+      "population": 9053300,
+      "areaKm2": 21936,
+      "neighbours": [
+        "EGY",
+        "JOR",
+        "LBN",
+        "PSE",
+        "SYR"
+      ],
+      "flag": "flag_il",
+      "difficulty": 1,
+      "tags": [
+        "disputed"
+      ]
+    },
+    {
+      "id": "ITA",
+      "iso2": "IT",
+      "nameKey": "country.ITA",
+      "capitalKey": "capital.ITA",
+      "continent": "Europe",
+      "subregion": "Southern Europe",
+      "population": 60297396,
+      "areaKm2": 299790,
+      "neighbours": [
+        "AUT",
+        "CHE",
+        "FRA",
+        "SMR",
+        "SVN",
+        "VAT"
+      ],
+      "flag": "flag_it",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "JAM",
+      "iso2": "JM",
+      "nameKey": "country.JAM",
+      "capitalKey": "capital.JAM",
+      "continent": "North America",
+      "subregion": "Caribbean",
+      "population": 2948279,
+      "areaKm2": 11000,
+      "neighbours": [],
+      "flag": "flag_jm",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "JEY",
+      "iso2": "JE",
+      "nameKey": "country.JEY",
+      "capitalKey": "capital.JEY",
+      "continent": "Europe",
+      "subregion": "Northern Europe",
+      "population": 107800,
+      "areaKm2": 98.59,
+      "neighbours": [],
+      "flag": "flag_je",
+      "difficulty": 1,
+      "tags": [
+        "territory",
+        "country"
+      ]
+    },
+    {
+      "id": "JOR",
+      "iso2": "JO",
+      "nameKey": "country.JOR",
+      "capitalKey": "capital.JOR",
+      "continent": "Asia",
+      "subregion": "Western Asia",
+      "population": 10101694,
+      "areaKm2": 88937,
+      "neighbours": [
+        "IRQ",
+        "ISR",
+        "PSE",
+        "SAU",
+        "SYR"
+      ],
+      "flag": "flag_jo",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
       ]
     },
     {
@@ -102,13 +2131,35 @@
       "capitalKey": "capital.JPN",
       "continent": "Asia",
       "subregion": "Eastern Asia",
-      "population": 124000000,
-      "areaKm2": 377975,
+      "population": 126264931,
+      "areaKm2": 365988,
       "neighbours": [],
       "flag": "flag_jp",
       "difficulty": 1,
       "tags": [
-        "sample"
+        "sovereign"
+      ]
+    },
+    {
+      "id": "KAZ",
+      "iso2": "KZ",
+      "nameKey": "country.KAZ",
+      "capitalKey": "capital.KAZ",
+      "continent": "Asia",
+      "subregion": "Central Asia",
+      "population": 18513930,
+      "areaKm2": 2706919,
+      "neighbours": [
+        "CHN",
+        "KGZ",
+        "RUS",
+        "TKM",
+        "UZB"
+      ],
+      "flag": "flag_kz",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
       ]
     },
     {
@@ -118,13 +2169,1082 @@
       "capitalKey": "capital.KEN",
       "continent": "Africa",
       "subregion": "Eastern Africa",
-      "population": 55000000,
-      "areaKm2": 580367,
-      "neighbours": [],
+      "population": 52573973,
+      "areaKm2": 588671,
+      "neighbours": [
+        "ETH",
+        "SOM",
+        "SSD",
+        "TZA",
+        "UGA"
+      ],
       "flag": "flag_ke",
       "difficulty": 2,
       "tags": [
-        "sample"
+        "sovereign"
+      ]
+    },
+    {
+      "id": "KGZ",
+      "iso2": "KG",
+      "nameKey": "country.KGZ",
+      "capitalKey": "capital.KGZ",
+      "continent": "Asia",
+      "subregion": "Central Asia",
+      "population": 6456900,
+      "areaKm2": 198955,
+      "neighbours": [
+        "CHN",
+        "KAZ",
+        "TJK",
+        "UZB"
+      ],
+      "flag": "flag_kg",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "KHM",
+      "iso2": "KH",
+      "nameKey": "country.KHM",
+      "capitalKey": "capital.KHM",
+      "continent": "Asia",
+      "subregion": "South-Eastern Asia",
+      "population": 16486542,
+      "areaKm2": 181637,
+      "neighbours": [
+        "LAO",
+        "THA",
+        "VNM"
+      ],
+      "flag": "flag_kh",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "KIR",
+      "iso2": "KI",
+      "nameKey": "country.KIR",
+      "capitalKey": "capital.KIR",
+      "continent": "Oceania",
+      "subregion": "Micronesia",
+      "population": 117606,
+      "areaKm2": 177,
+      "neighbours": [],
+      "flag": "flag_ki",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "KNA",
+      "iso2": "KN",
+      "nameKey": "country.KNA",
+      "capitalKey": "capital.KNA",
+      "continent": "North America",
+      "subregion": "Caribbean",
+      "population": 52834,
+      "areaKm2": 121,
+      "neighbours": [],
+      "flag": "flag_kn",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "KOR",
+      "iso2": "KR",
+      "nameKey": "country.KOR",
+      "capitalKey": "capital.KOR",
+      "continent": "Asia",
+      "subregion": "Eastern Asia",
+      "population": 51709098,
+      "areaKm2": 96837,
+      "neighbours": [
+        "PRK"
+      ],
+      "flag": "flag_kr",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "KOS",
+      "iso2": "XK",
+      "nameKey": "country.KOS",
+      "capitalKey": "capital.KOS",
+      "continent": "Europe",
+      "subregion": "Southern Europe",
+      "population": 1794248,
+      "areaKm2": 11154,
+      "neighbours": [
+        "ALB",
+        "MKD",
+        "MNE",
+        "SRB"
+      ],
+      "flag": "flag_xk",
+      "difficulty": 1,
+      "tags": [
+        "disputed"
+      ]
+    },
+    {
+      "id": "KWT",
+      "iso2": "KW",
+      "nameKey": "country.KWT",
+      "capitalKey": "capital.KWT",
+      "continent": "Asia",
+      "subregion": "Western Asia",
+      "population": 4207083,
+      "areaKm2": 17171,
+      "neighbours": [
+        "IRQ",
+        "SAU"
+      ],
+      "flag": "flag_kw",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "LAO",
+      "iso2": "LA",
+      "nameKey": "country.LAO",
+      "capitalKey": "capital.LAO",
+      "continent": "Asia",
+      "subregion": "South-Eastern Asia",
+      "population": 7169455,
+      "areaKm2": 228910,
+      "neighbours": [
+        "CHN",
+        "KHM",
+        "MMR",
+        "THA",
+        "VNM"
+      ],
+      "flag": "flag_la",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "LBN",
+      "iso2": "LB",
+      "nameKey": "country.LBN",
+      "capitalKey": "capital.LBN",
+      "continent": "Asia",
+      "subregion": "Western Asia",
+      "population": 6855713,
+      "areaKm2": 9799,
+      "neighbours": [
+        "ISR",
+        "SYR"
+      ],
+      "flag": "flag_lb",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "LBR",
+      "iso2": "LR",
+      "nameKey": "country.LBR",
+      "capitalKey": "capital.LBR",
+      "continent": "Africa",
+      "subregion": "Western Africa",
+      "population": 4937374,
+      "areaKm2": 95967,
+      "neighbours": [
+        "CIV",
+        "GIN",
+        "SLE"
+      ],
+      "flag": "flag_lr",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "LBY",
+      "iso2": "LY",
+      "nameKey": "country.LBY",
+      "capitalKey": "capital.LBY",
+      "continent": "Africa",
+      "subregion": "Northern Africa",
+      "population": 6777452,
+      "areaKm2": 1626539,
+      "neighbours": [
+        "DZA",
+        "EGY",
+        "NER",
+        "SDN",
+        "TCD",
+        "TUN"
+      ],
+      "flag": "flag_ly",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "LCA",
+      "iso2": "LC",
+      "nameKey": "country.LCA",
+      "capitalKey": "capital.LCA",
+      "continent": "North America",
+      "subregion": "Caribbean",
+      "population": 182790,
+      "areaKm2": 557,
+      "neighbours": [],
+      "flag": "flag_lc",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "LIE",
+      "iso2": "LI",
+      "nameKey": "country.LIE",
+      "capitalKey": "capital.LIE",
+      "continent": "Europe",
+      "subregion": "Western Europe",
+      "population": 38019,
+      "areaKm2": 53.11,
+      "neighbours": [
+        "AUT",
+        "CHE"
+      ],
+      "flag": "flag_li",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "LKA",
+      "iso2": "LK",
+      "nameKey": "country.LKA",
+      "capitalKey": "capital.LKA",
+      "continent": "Asia",
+      "subregion": "Southern Asia",
+      "population": 21803000,
+      "areaKm2": 66210,
+      "neighbours": [],
+      "flag": "flag_lk",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "LSO",
+      "iso2": "LS",
+      "nameKey": "country.LSO",
+      "capitalKey": "capital.LSO",
+      "continent": "Africa",
+      "subregion": "Southern Africa",
+      "population": 2125268,
+      "areaKm2": 30253,
+      "neighbours": [
+        "ZAF"
+      ],
+      "flag": "flag_ls",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "LTU",
+      "iso2": "LT",
+      "nameKey": "country.LTU",
+      "capitalKey": "capital.LTU",
+      "continent": "Europe",
+      "subregion": "Northern Europe",
+      "population": 2786844,
+      "areaKm2": 64482,
+      "neighbours": [
+        "BLR",
+        "LVA",
+        "POL",
+        "RUS"
+      ],
+      "flag": "flag_lt",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "LUX",
+      "iso2": "LU",
+      "nameKey": "country.LUX",
+      "capitalKey": "capital.LUX",
+      "continent": "Europe",
+      "subregion": "Western Europe",
+      "population": 619896,
+      "areaKm2": 2605,
+      "neighbours": [
+        "BEL",
+        "DEU",
+        "FRA"
+      ],
+      "flag": "flag_lu",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "LVA",
+      "iso2": "LV",
+      "nameKey": "country.LVA",
+      "capitalKey": "capital.LVA",
+      "continent": "Europe",
+      "subregion": "Northern Europe",
+      "population": 1912789,
+      "areaKm2": 64397,
+      "neighbours": [
+        "BLR",
+        "EST",
+        "LTU",
+        "RUS"
+      ],
+      "flag": "flag_lv",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "MAC",
+      "iso2": "MO",
+      "nameKey": "country.MAC",
+      "capitalKey": "capital.MAC",
+      "continent": "Asia",
+      "subregion": "Eastern Asia",
+      "population": 640445,
+      "areaKm2": 13.23,
+      "neighbours": [],
+      "flag": "flag_mo",
+      "difficulty": 1,
+      "tags": [
+        "territory",
+        "country"
+      ]
+    },
+    {
+      "id": "MAF",
+      "iso2": "MF",
+      "nameKey": "country.MAF",
+      "capitalKey": "capital.MAF",
+      "continent": "North America",
+      "subregion": "Caribbean",
+      "population": 38002,
+      "areaKm2": 46.63,
+      "neighbours": [
+        "SXM"
+      ],
+      "flag": "flag_mf",
+      "difficulty": 1,
+      "tags": [
+        "dependency"
+      ]
+    },
+    {
+      "id": "MAR",
+      "iso2": "MA",
+      "nameKey": "country.MAR",
+      "capitalKey": "capital.MAR",
+      "continent": "Africa",
+      "subregion": "Northern Africa",
+      "population": 36471769,
+      "areaKm2": 592090,
+      "neighbours": [
+        "DZA",
+        "ESH"
+      ],
+      "flag": "flag_ma",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "MCO",
+      "iso2": "MC",
+      "nameKey": "country.MCO",
+      "capitalKey": "capital.MCO",
+      "continent": "Europe",
+      "subregion": "Western Europe",
+      "population": 38964,
+      "areaKm2": 9.26,
+      "neighbours": [
+        "FRA"
+      ],
+      "flag": "flag_mc",
+      "difficulty": 3,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "MDA",
+      "iso2": "MD",
+      "nameKey": "country.MDA",
+      "capitalKey": "capital.MDA",
+      "continent": "Europe",
+      "subregion": "Eastern Europe",
+      "population": 2657637,
+      "areaKm2": 33047,
+      "neighbours": [
+        "ROU",
+        "UKR"
+      ],
+      "flag": "flag_md",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "MDG",
+      "iso2": "MG",
+      "nameKey": "country.MDG",
+      "capitalKey": "capital.MDG",
+      "continent": "Africa",
+      "subregion": "Eastern Africa",
+      "population": 26969307,
+      "areaKm2": 594929,
+      "neighbours": [],
+      "flag": "flag_mg",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "MDV",
+      "iso2": "MV",
+      "nameKey": "country.MDV",
+      "capitalKey": "capital.MDV",
+      "continent": "Seven seas (open ocean)",
+      "subregion": "Southern Asia",
+      "population": 530953,
+      "areaKm2": 9.78,
+      "neighbours": [],
+      "flag": "flag_mv",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "MEX",
+      "iso2": "MX",
+      "nameKey": "country.MEX",
+      "capitalKey": "capital.MEX",
+      "continent": "North America",
+      "subregion": "Central America",
+      "population": 127575529,
+      "areaKm2": 1960307,
+      "neighbours": [
+        "BLZ",
+        "GTM",
+        "USA"
+      ],
+      "flag": "flag_mx",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "MHL",
+      "iso2": "MH",
+      "nameKey": "country.MHL",
+      "capitalKey": "capital.MHL",
+      "continent": "Oceania",
+      "subregion": "Micronesia",
+      "population": 58791,
+      "areaKm2": 16.22,
+      "neighbours": [],
+      "flag": "flag_mh",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "MKD",
+      "iso2": "MK",
+      "nameKey": "country.MKD",
+      "capitalKey": "capital.MKD",
+      "continent": "Europe",
+      "subregion": "Southern Europe",
+      "population": 2083459,
+      "areaKm2": 25470,
+      "neighbours": [
+        "ALB",
+        "BGR",
+        "GRC",
+        "KOS",
+        "SRB"
+      ],
+      "flag": "flag_mk",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "MLI",
+      "iso2": "ML",
+      "nameKey": "country.MLI",
+      "capitalKey": "capital.MLI",
+      "continent": "Africa",
+      "subregion": "Western Africa",
+      "population": 19658031,
+      "areaKm2": 1256826,
+      "neighbours": [
+        "BFA",
+        "CIV",
+        "DZA",
+        "GIN",
+        "MRT",
+        "NER",
+        "SEN"
+      ],
+      "flag": "flag_ml",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "MLT",
+      "iso2": "MT",
+      "nameKey": "country.MLT",
+      "capitalKey": "capital.MLT",
+      "continent": "Europe",
+      "subregion": "Southern Europe",
+      "population": 502653,
+      "areaKm2": 174,
+      "neighbours": [],
+      "flag": "flag_mt",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "MMR",
+      "iso2": "MM",
+      "nameKey": "country.MMR",
+      "capitalKey": "capital.MMR",
+      "continent": "Asia",
+      "subregion": "South-Eastern Asia",
+      "population": 54045420,
+      "areaKm2": 664288,
+      "neighbours": [
+        "BGD",
+        "CHN",
+        "IND",
+        "LAO",
+        "THA"
+      ],
+      "flag": "flag_mm",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "MNE",
+      "iso2": "ME",
+      "nameKey": "country.MNE",
+      "capitalKey": "capital.MNE",
+      "continent": "Europe",
+      "subregion": "Southern Europe",
+      "population": 622137,
+      "areaKm2": 13923,
+      "neighbours": [
+        "ALB",
+        "BIH",
+        "HRV",
+        "KOS",
+        "SRB"
+      ],
+      "flag": "flag_me",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "MNG",
+      "iso2": "MN",
+      "nameKey": "country.MNG",
+      "capitalKey": "capital.MNG",
+      "continent": "Asia",
+      "subregion": "Eastern Asia",
+      "population": 3225167,
+      "areaKm2": 1560662,
+      "neighbours": [
+        "CHN",
+        "RUS"
+      ],
+      "flag": "flag_mn",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "MNP",
+      "iso2": "MP",
+      "nameKey": "country.MNP",
+      "capitalKey": "capital.MNP",
+      "continent": "Oceania",
+      "subregion": "Micronesia",
+      "population": 57216,
+      "areaKm2": 51.06,
+      "neighbours": [],
+      "flag": "flag_mp",
+      "difficulty": 1,
+      "tags": [
+        "dependency"
+      ]
+    },
+    {
+      "id": "MOZ",
+      "iso2": "MZ",
+      "nameKey": "country.MOZ",
+      "capitalKey": "capital.MOZ",
+      "continent": "Africa",
+      "subregion": "Eastern Africa",
+      "population": 30366036,
+      "areaKm2": 792623,
+      "neighbours": [
+        "MWI",
+        "SWZ",
+        "TZA",
+        "ZAF",
+        "ZMB",
+        "ZWE"
+      ],
+      "flag": "flag_mz",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "MRT",
+      "iso2": "MR",
+      "nameKey": "country.MRT",
+      "capitalKey": "capital.MRT",
+      "continent": "Africa",
+      "subregion": "Western Africa",
+      "population": 4525696,
+      "areaKm2": 1039789,
+      "neighbours": [
+        "DZA",
+        "ESH",
+        "MLI",
+        "SEN"
+      ],
+      "flag": "flag_mr",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "MSR",
+      "iso2": "MS",
+      "nameKey": "country.MSR",
+      "capitalKey": "capital.MSR",
+      "continent": "North America",
+      "subregion": "Caribbean",
+      "population": 4649,
+      "areaKm2": 42.15,
+      "neighbours": [],
+      "flag": "flag_ms",
+      "difficulty": 1,
+      "tags": [
+        "dependency"
+      ]
+    },
+    {
+      "id": "MUS",
+      "iso2": "MU",
+      "nameKey": "country.MUS",
+      "capitalKey": "capital.MUS",
+      "continent": "Seven seas (open ocean)",
+      "subregion": "Eastern Africa",
+      "population": 1265711,
+      "areaKm2": 1730,
+      "neighbours": [],
+      "flag": "flag_mu",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "MWI",
+      "iso2": "MW",
+      "nameKey": "country.MWI",
+      "capitalKey": "capital.MWI",
+      "continent": "Africa",
+      "subregion": "Eastern Africa",
+      "population": 18628747,
+      "areaKm2": 119494,
+      "neighbours": [
+        "MOZ",
+        "TZA",
+        "ZMB"
+      ],
+      "flag": "flag_mw",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "MYS",
+      "iso2": "MY",
+      "nameKey": "country.MYS",
+      "capitalKey": "capital.MYS",
+      "continent": "Asia",
+      "subregion": "South-Eastern Asia",
+      "population": 31949777,
+      "areaKm2": 328463,
+      "neighbours": [
+        "BRN",
+        "IDN",
+        "THA"
+      ],
+      "flag": "flag_my",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "NAM",
+      "iso2": "NA",
+      "nameKey": "country.NAM",
+      "capitalKey": "capital.NAM",
+      "continent": "Africa",
+      "subregion": "Southern Africa",
+      "population": 2494530,
+      "areaKm2": 824790,
+      "neighbours": [
+        "AGO",
+        "BWA",
+        "ZAF",
+        "ZMB"
+      ],
+      "flag": "flag_na",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "NCL",
+      "iso2": "NC",
+      "nameKey": "country.NCL",
+      "capitalKey": "capital.NCL",
+      "continent": "Oceania",
+      "subregion": "Melanesia",
+      "population": 287800,
+      "areaKm2": 18132,
+      "neighbours": [],
+      "flag": "flag_nc",
+      "difficulty": 1,
+      "tags": [
+        "dependency"
+      ]
+    },
+    {
+      "id": "NER",
+      "iso2": "NE",
+      "nameKey": "country.NER",
+      "capitalKey": "capital.NER",
+      "continent": "Africa",
+      "subregion": "Western Africa",
+      "population": 23310715,
+      "areaKm2": 1185190,
+      "neighbours": [
+        "BEN",
+        "BFA",
+        "DZA",
+        "LBY",
+        "MLI",
+        "NGA",
+        "TCD"
+      ],
+      "flag": "flag_ne",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "NFK",
+      "iso2": "NF",
+      "nameKey": "country.NFK",
+      "capitalKey": "capital.NFK",
+      "continent": "Oceania",
+      "subregion": "Australia and New Zealand",
+      "population": 2169,
+      "areaKm2": 34.61,
+      "neighbours": [],
+      "flag": "flag_nf",
+      "difficulty": 1,
+      "tags": [
+        "dependency"
+      ]
+    },
+    {
+      "id": "NGA",
+      "iso2": "NG",
+      "nameKey": "country.NGA",
+      "capitalKey": "capital.NGA",
+      "continent": "Africa",
+      "subregion": "Western Africa",
+      "population": 200963599,
+      "areaKm2": 912672,
+      "neighbours": [
+        "BEN",
+        "CMR",
+        "NER",
+        "TCD"
+      ],
+      "flag": "flag_ng",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "NIC",
+      "iso2": "NI",
+      "nameKey": "country.NIC",
+      "capitalKey": "capital.NIC",
+      "continent": "North America",
+      "subregion": "Central America",
+      "population": 6545502,
+      "areaKm2": 129201,
+      "neighbours": [
+        "CRI",
+        "HND"
+      ],
+      "flag": "flag_ni",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "NIU",
+      "iso2": "NU",
+      "nameKey": "country.NIU",
+      "capitalKey": "capital.NIU",
+      "continent": "Oceania",
+      "subregion": "Polynesia",
+      "population": 1620,
+      "areaKm2": 151,
+      "neighbours": [],
+      "flag": "flag_nu",
+      "difficulty": 1,
+      "tags": [
+        "dependency"
+      ]
+    },
+    {
+      "id": "NLD",
+      "iso2": "NL",
+      "nameKey": "country.NLD",
+      "capitalKey": "capital.NLD",
+      "continent": "Europe",
+      "subregion": "Western Europe",
+      "population": 17332850,
+      "areaKm2": 36347,
+      "neighbours": [
+        "BEL",
+        "DEU"
+      ],
+      "flag": "flag_nl",
+      "difficulty": 1,
+      "tags": [
+        "sovereign",
+        "country"
+      ]
+    },
+    {
+      "id": "NOR",
+      "iso2": "NO",
+      "nameKey": "country.NOR",
+      "capitalKey": "capital.NOR",
+      "continent": "Europe",
+      "subregion": "Northern Europe",
+      "population": 5347896,
+      "areaKm2": 381350,
+      "neighbours": [
+        "FIN",
+        "RUS",
+        "SWE"
+      ],
+      "flag": "flag_no",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "NPL",
+      "iso2": "NP",
+      "nameKey": "country.NPL",
+      "capitalKey": "capital.NPL",
+      "continent": "Asia",
+      "subregion": "Southern Asia",
+      "population": 28608710,
+      "areaKm2": 147065,
+      "neighbours": [
+        "CHN",
+        "IND"
+      ],
+      "flag": "flag_np",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "NRU",
+      "iso2": "NR",
+      "nameKey": "country.NRU",
+      "capitalKey": "capital.NRU",
+      "continent": "Oceania",
+      "subregion": "Micronesia",
+      "population": 12581,
+      "areaKm2": 18.26,
+      "neighbours": [],
+      "flag": "flag_nr",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "NZL",
+      "iso2": "NZ",
+      "nameKey": "country.NZL",
+      "capitalKey": "capital.NZL",
+      "continent": "Oceania",
+      "subregion": "Australia and New Zealand",
+      "population": 4917000,
+      "areaKm2": 267314,
+      "neighbours": [],
+      "flag": "flag_nz",
+      "difficulty": 1,
+      "tags": [
+        "sovereign",
+        "country"
+      ]
+    },
+    {
+      "id": "OMN",
+      "iso2": "OM",
+      "nameKey": "country.OMN",
+      "capitalKey": "capital.OMN",
+      "continent": "Asia",
+      "subregion": "Western Asia",
+      "population": 4974986,
+      "areaKm2": 311595,
+      "neighbours": [
+        "ARE",
+        "SAU",
+        "YEM"
+      ],
+      "flag": "flag_om",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "PAK",
+      "iso2": "PK",
+      "nameKey": "country.PAK",
+      "capitalKey": "capital.PAK",
+      "continent": "Asia",
+      "subregion": "Southern Asia",
+      "population": 216565318,
+      "areaKm2": 874162,
+      "neighbours": [
+        "AFG",
+        "CHN",
+        "IND",
+        "IRN"
+      ],
+      "flag": "flag_pk",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "PAN",
+      "iso2": "PA",
+      "nameKey": "country.PAN",
+      "capitalKey": "capital.PAN",
+      "continent": "North America",
+      "subregion": "Central America",
+      "population": 4246439,
+      "areaKm2": 73978,
+      "neighbours": [
+        "COL",
+        "CRI"
+      ],
+      "flag": "flag_pa",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "PCN",
+      "iso2": "PN",
+      "nameKey": "country.PCN",
+      "capitalKey": "capital.PCN",
+      "continent": "Oceania",
+      "subregion": "Polynesia",
+      "population": 54,
+      "areaKm2": 31.49,
+      "neighbours": [],
+      "flag": "flag_pn",
+      "difficulty": 1,
+      "tags": [
+        "dependency"
       ]
     },
     {
@@ -134,13 +3254,1379 @@
       "capitalKey": "capital.PER",
       "continent": "South America",
       "subregion": "South America",
-      "population": 34000000,
-      "areaKm2": 1285216,
-      "neighbours": [],
+      "population": 32510453,
+      "areaKm2": 1294557,
+      "neighbours": [
+        "BOL",
+        "BRA",
+        "CHL",
+        "COL",
+        "ECU"
+      ],
       "flag": "flag_pe",
       "difficulty": 2,
       "tags": [
-        "sample"
+        "sovereign"
+      ]
+    },
+    {
+      "id": "PHL",
+      "iso2": "PH",
+      "nameKey": "country.PHL",
+      "capitalKey": "capital.PHL",
+      "continent": "Asia",
+      "subregion": "South-Eastern Asia",
+      "population": 108116615,
+      "areaKm2": 285827,
+      "neighbours": [],
+      "flag": "flag_ph",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "PLW",
+      "iso2": "PW",
+      "nameKey": "country.PLW",
+      "capitalKey": "capital.PLW",
+      "continent": "Oceania",
+      "subregion": "Micronesia",
+      "population": 18008,
+      "areaKm2": 272,
+      "neighbours": [],
+      "flag": "flag_pw",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "PNG",
+      "iso2": "PG",
+      "nameKey": "country.PNG",
+      "capitalKey": "capital.PNG",
+      "continent": "Oceania",
+      "subregion": "Melanesia",
+      "population": 8776109,
+      "areaKm2": 461733,
+      "neighbours": [
+        "IDN"
+      ],
+      "flag": "flag_pg",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "POL",
+      "iso2": "PL",
+      "nameKey": "country.POL",
+      "capitalKey": "capital.POL",
+      "continent": "Europe",
+      "subregion": "Eastern Europe",
+      "population": 37970874,
+      "areaKm2": 312318,
+      "neighbours": [
+        "BLR",
+        "CZE",
+        "DEU",
+        "LTU",
+        "RUS",
+        "SVK",
+        "UKR"
+      ],
+      "flag": "flag_pl",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "PRI",
+      "iso2": "PR",
+      "nameKey": "country.PRI",
+      "capitalKey": "capital.PRI",
+      "continent": "North America",
+      "subregion": "Caribbean",
+      "population": 3193694,
+      "areaKm2": 8906,
+      "neighbours": [],
+      "flag": "flag_pr",
+      "difficulty": 1,
+      "tags": [
+        "dependency"
+      ]
+    },
+    {
+      "id": "PRK",
+      "iso2": "KP",
+      "nameKey": "country.PRK",
+      "capitalKey": "capital.PRK",
+      "continent": "Asia",
+      "subregion": "Eastern Asia",
+      "population": 25666161,
+      "areaKm2": 122617,
+      "neighbours": [
+        "CHN",
+        "KOR",
+        "RUS"
+      ],
+      "flag": "flag_kp",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "PRT",
+      "iso2": "PT",
+      "nameKey": "country.PRT",
+      "capitalKey": "capital.PRT",
+      "continent": "Europe",
+      "subregion": "Southern Europe",
+      "population": 10269417,
+      "areaKm2": 89961,
+      "neighbours": [
+        "ESP"
+      ],
+      "flag": "flag_pt",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "PRY",
+      "iso2": "PY",
+      "nameKey": "country.PRY",
+      "capitalKey": "capital.PRY",
+      "continent": "South America",
+      "subregion": "South America",
+      "population": 7044636,
+      "areaKm2": 400733,
+      "neighbours": [
+        "ARG",
+        "BOL",
+        "BRA"
+      ],
+      "flag": "flag_py",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "PSE",
+      "iso2": "PS",
+      "nameKey": "country.PSE",
+      "capitalKey": "capital.PSE",
+      "continent": "Asia",
+      "subregion": "Western Asia",
+      "population": 4685306,
+      "areaKm2": 6415,
+      "neighbours": [
+        "EGY",
+        "ISR",
+        "JOR"
+      ],
+      "flag": "flag_ps",
+      "difficulty": 1,
+      "tags": [
+        "indeterminate"
+      ]
+    },
+    {
+      "id": "PYF",
+      "iso2": "PF",
+      "nameKey": "country.PYF",
+      "capitalKey": "capital.PYF",
+      "continent": "Oceania",
+      "subregion": "Polynesia",
+      "population": 279287,
+      "areaKm2": 1233,
+      "neighbours": [],
+      "flag": "flag_pf",
+      "difficulty": 1,
+      "tags": [
+        "dependency"
+      ]
+    },
+    {
+      "id": "QAT",
+      "iso2": "QA",
+      "nameKey": "country.QAT",
+      "capitalKey": "capital.QAT",
+      "continent": "Asia",
+      "subregion": "Western Asia",
+      "population": 2832067,
+      "areaKm2": 11049,
+      "neighbours": [
+        "SAU"
+      ],
+      "flag": "flag_qa",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "ROU",
+      "iso2": "RO",
+      "nameKey": "country.ROU",
+      "capitalKey": "capital.ROU",
+      "continent": "Europe",
+      "subregion": "Eastern Europe",
+      "population": 19356544,
+      "areaKm2": 236178,
+      "neighbours": [
+        "BGR",
+        "HUN",
+        "MDA",
+        "SRB",
+        "UKR"
+      ],
+      "flag": "flag_ro",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "RUS",
+      "iso2": "RU",
+      "nameKey": "country.RUS",
+      "capitalKey": "capital.RUS",
+      "continent": "Europe",
+      "subregion": "Eastern Europe",
+      "population": 144373535,
+      "areaKm2": 16875118,
+      "neighbours": [
+        "AZE",
+        "BLR",
+        "CHN",
+        "EST",
+        "FIN",
+        "GEO",
+        "KAZ",
+        "LTU",
+        "LVA",
+        "MNG",
+        "NOR",
+        "POL",
+        "PRK",
+        "UKR"
+      ],
+      "flag": "flag_ru",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "RWA",
+      "iso2": "RW",
+      "nameKey": "country.RWA",
+      "capitalKey": "capital.RWA",
+      "continent": "Africa",
+      "subregion": "Eastern Africa",
+      "population": 12626950,
+      "areaKm2": 25627,
+      "neighbours": [
+        "BDI",
+        "COD",
+        "TZA",
+        "UGA"
+      ],
+      "flag": "flag_rw",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "SAU",
+      "iso2": "SA",
+      "nameKey": "country.SAU",
+      "capitalKey": "capital.SAU",
+      "continent": "Asia",
+      "subregion": "Western Asia",
+      "population": 34268528,
+      "areaKm2": 1924856,
+      "neighbours": [
+        "ARE",
+        "IRQ",
+        "JOR",
+        "KWT",
+        "OMN",
+        "QAT",
+        "YEM"
+      ],
+      "flag": "flag_sa",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "SDN",
+      "iso2": "SD",
+      "nameKey": "country.SDN",
+      "capitalKey": "capital.SDN",
+      "continent": "Africa",
+      "subregion": "Northern Africa",
+      "population": 42813238,
+      "areaKm2": 1861813,
+      "neighbours": [
+        "CAF",
+        "EGY",
+        "ERI",
+        "ETH",
+        "LBY",
+        "SSD",
+        "TCD"
+      ],
+      "flag": "flag_sd",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "SEN",
+      "iso2": "SN",
+      "nameKey": "country.SEN",
+      "capitalKey": "capital.SEN",
+      "continent": "Africa",
+      "subregion": "Western Africa",
+      "population": 16296364,
+      "areaKm2": 197763,
+      "neighbours": [
+        "GIN",
+        "GMB",
+        "GNB",
+        "MLI",
+        "MRT"
+      ],
+      "flag": "flag_sn",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "SGP",
+      "iso2": "SG",
+      "nameKey": "country.SGP",
+      "capitalKey": "capital.SGP",
+      "continent": "Asia",
+      "subregion": "South-Eastern Asia",
+      "population": 5703569,
+      "areaKm2": 436,
+      "neighbours": [],
+      "flag": "flag_sg",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "SGS",
+      "iso2": "GS",
+      "nameKey": "country.SGS",
+      "capitalKey": "capital.SGS",
+      "continent": "Seven seas (open ocean)",
+      "subregion": "Seven seas (open ocean)",
+      "population": 30,
+      "areaKm2": 3530,
+      "neighbours": [],
+      "flag": "flag_gs",
+      "difficulty": 1,
+      "tags": [
+        "dependency"
+      ]
+    },
+    {
+      "id": "SHN",
+      "iso2": "SH",
+      "nameKey": "country.SHN",
+      "capitalKey": "capital.SHN",
+      "continent": "Seven seas (open ocean)",
+      "subregion": "Western Africa",
+      "population": 4534,
+      "areaKm2": 76.7,
+      "neighbours": [],
+      "flag": "flag_sh",
+      "difficulty": 1,
+      "tags": [
+        "dependency"
+      ]
+    },
+    {
+      "id": "SLB",
+      "iso2": "SB",
+      "nameKey": "country.SLB",
+      "capitalKey": "capital.SLB",
+      "continent": "Oceania",
+      "subregion": "Melanesia",
+      "population": 669823,
+      "areaKm2": 23493,
+      "neighbours": [],
+      "flag": "flag_sb",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "SLE",
+      "iso2": "SL",
+      "nameKey": "country.SLE",
+      "capitalKey": "capital.SLE",
+      "continent": "Africa",
+      "subregion": "Western Africa",
+      "population": 7813215,
+      "areaKm2": 72019,
+      "neighbours": [
+        "GIN",
+        "LBR"
+      ],
+      "flag": "flag_sl",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "SLV",
+      "iso2": "SV",
+      "nameKey": "country.SLV",
+      "capitalKey": "capital.SLV",
+      "continent": "North America",
+      "subregion": "Central America",
+      "population": 6453553,
+      "areaKm2": 20505,
+      "neighbours": [
+        "GTM",
+        "HND"
+      ],
+      "flag": "flag_sv",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "SMR",
+      "iso2": "SM",
+      "nameKey": "country.SMR",
+      "capitalKey": "capital.SMR",
+      "continent": "Europe",
+      "subregion": "Southern Europe",
+      "population": 33860,
+      "areaKm2": 35.56,
+      "neighbours": [
+        "ITA"
+      ],
+      "flag": "flag_sm",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "SOM",
+      "iso2": "SO",
+      "nameKey": "country.SOM",
+      "capitalKey": "capital.SOM",
+      "continent": "Africa",
+      "subregion": "Eastern Africa",
+      "population": 10192317,
+      "areaKm2": 473847,
+      "neighbours": [
+        "ETH",
+        "KEN"
+      ],
+      "flag": "flag_so",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "SPM",
+      "iso2": "PM",
+      "nameKey": "country.SPM",
+      "capitalKey": "capital.SPM",
+      "continent": "North America",
+      "subregion": "Northern America",
+      "population": 5997,
+      "areaKm2": 94.37,
+      "neighbours": [],
+      "flag": "flag_pm",
+      "difficulty": 1,
+      "tags": [
+        "dependency"
+      ]
+    },
+    {
+      "id": "SRB",
+      "iso2": "RS",
+      "nameKey": "country.SRB",
+      "capitalKey": "capital.SRB",
+      "continent": "Europe",
+      "subregion": "Southern Europe",
+      "population": 6944975,
+      "areaKm2": 77109,
+      "neighbours": [
+        "BGR",
+        "BIH",
+        "HRV",
+        "HUN",
+        "KOS",
+        "MKD",
+        "MNE",
+        "ROU"
+      ],
+      "flag": "flag_rs",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "SSD",
+      "iso2": "SS",
+      "nameKey": "country.SSD",
+      "capitalKey": "capital.SSD",
+      "continent": "Africa",
+      "subregion": "Eastern Africa",
+      "population": 11062113,
+      "areaKm2": 629833,
+      "neighbours": [
+        "CAF",
+        "COD",
+        "ETH",
+        "KEN",
+        "SDN",
+        "UGA"
+      ],
+      "flag": "flag_ss",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "STP",
+      "iso2": "ST",
+      "nameKey": "country.STP",
+      "capitalKey": "capital.STP",
+      "continent": "Africa",
+      "subregion": "Middle Africa",
+      "population": 215056,
+      "areaKm2": 798,
+      "neighbours": [],
+      "flag": "flag_st",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "SUR",
+      "iso2": "SR",
+      "nameKey": "country.SUR",
+      "capitalKey": "capital.SUR",
+      "continent": "South America",
+      "subregion": "South America",
+      "population": 581363,
+      "areaKm2": 146213,
+      "neighbours": [
+        "BRA",
+        "FRA",
+        "GUY"
+      ],
+      "flag": "flag_sr",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "SVK",
+      "iso2": "SK",
+      "nameKey": "country.SVK",
+      "capitalKey": "capital.SVK",
+      "continent": "Europe",
+      "subregion": "Eastern Europe",
+      "population": 5454073,
+      "areaKm2": 48379,
+      "neighbours": [
+        "AUT",
+        "CZE",
+        "HUN",
+        "POL",
+        "UKR"
+      ],
+      "flag": "flag_sk",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "SVN",
+      "iso2": "SI",
+      "nameKey": "country.SVN",
+      "capitalKey": "capital.SVN",
+      "continent": "Europe",
+      "subregion": "Southern Europe",
+      "population": 2087946,
+      "areaKm2": 20288,
+      "neighbours": [
+        "AUT",
+        "HRV",
+        "HUN",
+        "ITA"
+      ],
+      "flag": "flag_si",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "SWE",
+      "iso2": "SE",
+      "nameKey": "country.SWE",
+      "capitalKey": "capital.SWE",
+      "continent": "Europe",
+      "subregion": "Northern Europe",
+      "population": 10285453,
+      "areaKm2": 441644,
+      "neighbours": [
+        "FIN",
+        "NOR"
+      ],
+      "flag": "flag_se",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "SWZ",
+      "iso2": "SZ",
+      "nameKey": "country.SWZ",
+      "capitalKey": "capital.SWZ",
+      "continent": "Africa",
+      "subregion": "Southern Africa",
+      "population": 1148130,
+      "areaKm2": 17102,
+      "neighbours": [
+        "MOZ",
+        "ZAF"
+      ],
+      "flag": "flag_sz",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "SXM",
+      "iso2": "SX",
+      "nameKey": "country.SXM",
+      "capitalKey": "capital.SXM",
+      "continent": "North America",
+      "subregion": "Caribbean",
+      "population": 40733,
+      "areaKm2": 12.17,
+      "neighbours": [
+        "MAF"
+      ],
+      "flag": "flag_sx",
+      "difficulty": 1,
+      "tags": [
+        "territory",
+        "country"
+      ]
+    },
+    {
+      "id": "SYC",
+      "iso2": "SC",
+      "nameKey": "country.SYC",
+      "capitalKey": "capital.SYC",
+      "continent": "Seven seas (open ocean)",
+      "subregion": "Eastern Africa",
+      "population": 97625,
+      "areaKm2": 82.48,
+      "neighbours": [],
+      "flag": "flag_sc",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "SYR",
+      "iso2": "SY",
+      "nameKey": "country.SYR",
+      "capitalKey": "capital.SYR",
+      "continent": "Asia",
+      "subregion": "Western Asia",
+      "population": 17070135,
+      "areaKm2": 186170,
+      "neighbours": [
+        "IRQ",
+        "ISR",
+        "JOR",
+        "LBN",
+        "TUR"
+      ],
+      "flag": "flag_sy",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "TCA",
+      "iso2": "TC",
+      "nameKey": "country.TCA",
+      "capitalKey": "capital.TCA",
+      "continent": "North America",
+      "subregion": "Caribbean",
+      "population": 38191,
+      "areaKm2": 90.3,
+      "neighbours": [],
+      "flag": "flag_tc",
+      "difficulty": 1,
+      "tags": [
+        "dependency"
+      ]
+    },
+    {
+      "id": "TCD",
+      "iso2": "TD",
+      "nameKey": "country.TCD",
+      "capitalKey": "capital.TCD",
+      "continent": "Africa",
+      "subregion": "Middle Africa",
+      "population": 15946876,
+      "areaKm2": 1270855,
+      "neighbours": [
+        "CAF",
+        "CMR",
+        "LBY",
+        "NER",
+        "NGA",
+        "SDN"
+      ],
+      "flag": "flag_td",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "TGO",
+      "iso2": "TG",
+      "nameKey": "country.TGO",
+      "capitalKey": "capital.TGO",
+      "continent": "Africa",
+      "subregion": "Western Africa",
+      "population": 8082366,
+      "areaKm2": 57325,
+      "neighbours": [
+        "BEN",
+        "BFA",
+        "GHA"
+      ],
+      "flag": "flag_tg",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "THA",
+      "iso2": "TH",
+      "nameKey": "country.THA",
+      "capitalKey": "capital.THA",
+      "continent": "Asia",
+      "subregion": "South-Eastern Asia",
+      "population": 69625582,
+      "areaKm2": 515546,
+      "neighbours": [
+        "KHM",
+        "LAO",
+        "MMR",
+        "MYS"
+      ],
+      "flag": "flag_th",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "TJK",
+      "iso2": "TJ",
+      "nameKey": "country.TJK",
+      "capitalKey": "capital.TJK",
+      "continent": "Asia",
+      "subregion": "Central Asia",
+      "population": 9321018,
+      "areaKm2": 141800,
+      "neighbours": [
+        "AFG",
+        "CHN",
+        "KGZ",
+        "UZB"
+      ],
+      "flag": "flag_tj",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "TKM",
+      "iso2": "TM",
+      "nameKey": "country.TKM",
+      "capitalKey": "capital.TKM",
+      "continent": "Asia",
+      "subregion": "Central Asia",
+      "population": 5942089,
+      "areaKm2": 469939,
+      "neighbours": [
+        "AFG",
+        "IRN",
+        "KAZ",
+        "UZB"
+      ],
+      "flag": "flag_tm",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "TLS",
+      "iso2": "TL",
+      "nameKey": "country.TLS",
+      "capitalKey": "capital.TLS",
+      "continent": "Asia",
+      "subregion": "South-Eastern Asia",
+      "population": 1293119,
+      "areaKm2": 15026,
+      "neighbours": [
+        "IDN"
+      ],
+      "flag": "flag_tl",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "TON",
+      "iso2": "TO",
+      "nameKey": "country.TON",
+      "capitalKey": "capital.TON",
+      "continent": "Oceania",
+      "subregion": "Polynesia",
+      "population": 104494,
+      "areaKm2": 207,
+      "neighbours": [],
+      "flag": "flag_to",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "TTO",
+      "iso2": "TT",
+      "nameKey": "country.TTO",
+      "capitalKey": "capital.TTO",
+      "continent": "North America",
+      "subregion": "Caribbean",
+      "population": 1394973,
+      "areaKm2": 4660,
+      "neighbours": [],
+      "flag": "flag_tt",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "TUN",
+      "iso2": "TN",
+      "nameKey": "country.TUN",
+      "capitalKey": "capital.TUN",
+      "continent": "Africa",
+      "subregion": "Northern Africa",
+      "population": 11694719,
+      "areaKm2": 156330,
+      "neighbours": [
+        "DZA",
+        "LBY"
+      ],
+      "flag": "flag_tn",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "TUR",
+      "iso2": "TR",
+      "nameKey": "country.TUR",
+      "capitalKey": "capital.TUR",
+      "continent": "Asia",
+      "subregion": "Western Asia",
+      "population": 83429615,
+      "areaKm2": 778894,
+      "neighbours": [
+        "ARM",
+        "AZE",
+        "BGR",
+        "GEO",
+        "GRC",
+        "IRN",
+        "IRQ",
+        "SYR"
+      ],
+      "flag": "flag_tr",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "TUV",
+      "iso2": "TV",
+      "nameKey": "country.TUV",
+      "capitalKey": "capital.TUV",
+      "continent": "Oceania",
+      "subregion": "Polynesia",
+      "population": 11646,
+      "areaKm2": 2.02,
+      "neighbours": [],
+      "flag": "flag_tv",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "TWN",
+      "iso2": "CN-TW",
+      "nameKey": "country.TWN",
+      "capitalKey": "capital.TWN",
+      "continent": "Asia",
+      "subregion": "Eastern Asia",
+      "population": 23568378,
+      "areaKm2": 35875,
+      "neighbours": [],
+      "flag": "flag_cn-tw",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "TZA",
+      "iso2": "TZ",
+      "nameKey": "country.TZA",
+      "capitalKey": "capital.TZA",
+      "continent": "Africa",
+      "subregion": "Eastern Africa",
+      "population": 58005463,
+      "areaKm2": 944602,
+      "neighbours": [
+        "BDI",
+        "COD",
+        "KEN",
+        "MOZ",
+        "MWI",
+        "RWA",
+        "UGA",
+        "ZMB"
+      ],
+      "flag": "flag_tz",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "UGA",
+      "iso2": "UG",
+      "nameKey": "country.UGA",
+      "capitalKey": "capital.UGA",
+      "continent": "Africa",
+      "subregion": "Eastern Africa",
+      "population": 44269594,
+      "areaKm2": 242908,
+      "neighbours": [
+        "COD",
+        "KEN",
+        "RWA",
+        "SSD",
+        "TZA"
+      ],
+      "flag": "flag_ug",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "UKR",
+      "iso2": "UA",
+      "nameKey": "country.UKR",
+      "capitalKey": "capital.UKR",
+      "continent": "Europe",
+      "subregion": "Eastern Europe",
+      "population": 44385155,
+      "areaKm2": 570605,
+      "neighbours": [
+        "BLR",
+        "HUN",
+        "MDA",
+        "POL",
+        "ROU",
+        "RUS",
+        "SVK"
+      ],
+      "flag": "flag_ua",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "UMI",
+      "iso2": "UM",
+      "nameKey": "country.UMI",
+      "capitalKey": "capital.UMI",
+      "continent": "North America",
+      "subregion": "Seven seas (open ocean)",
+      "population": 300,
+      "areaKm2": 1.36,
+      "neighbours": [],
+      "flag": "flag_um",
+      "difficulty": 1,
+      "tags": [
+        "dependency"
+      ]
+    },
+    {
+      "id": "URY",
+      "iso2": "UY",
+      "nameKey": "country.URY",
+      "capitalKey": "capital.URY",
+      "continent": "South America",
+      "subregion": "South America",
+      "population": 3461734,
+      "areaKm2": 177797,
+      "neighbours": [
+        "ARG",
+        "BRA"
+      ],
+      "flag": "flag_uy",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "USA",
+      "iso2": "US",
+      "nameKey": "country.USA",
+      "capitalKey": "capital.USA",
+      "continent": "North America",
+      "subregion": "Northern America",
+      "population": 328239523,
+      "areaKm2": 9441902,
+      "neighbours": [
+        "CAN",
+        "MEX"
+      ],
+      "flag": "flag_us",
+      "difficulty": 1,
+      "tags": [
+        "sovereign",
+        "country"
+      ]
+    },
+    {
+      "id": "UZB",
+      "iso2": "UZ",
+      "nameKey": "country.UZB",
+      "capitalKey": "capital.UZB",
+      "continent": "Asia",
+      "subregion": "Central Asia",
+      "population": 33580650,
+      "areaKm2": 446656,
+      "neighbours": [
+        "AFG",
+        "KAZ",
+        "KGZ",
+        "TJK",
+        "TKM"
+      ],
+      "flag": "flag_uz",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "VAT",
+      "iso2": "VA",
+      "nameKey": "country.VAT",
+      "capitalKey": "capital.VAT",
+      "continent": "Europe",
+      "subregion": "Southern Europe",
+      "population": 825,
+      "areaKm2": 0.01,
+      "neighbours": [
+        "ITA"
+      ],
+      "flag": "flag_va",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "VCT",
+      "iso2": "VC",
+      "nameKey": "country.VCT",
+      "capitalKey": "capital.VCT",
+      "continent": "North America",
+      "subregion": "Caribbean",
+      "population": 110589,
+      "areaKm2": 230,
+      "neighbours": [],
+      "flag": "flag_vc",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "VEN",
+      "iso2": "VE",
+      "nameKey": "country.VEN",
+      "capitalKey": "capital.VEN",
+      "continent": "South America",
+      "subregion": "South America",
+      "population": 28515829,
+      "areaKm2": 915366,
+      "neighbours": [
+        "BRA",
+        "COL",
+        "GUY"
+      ],
+      "flag": "flag_ve",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "VGB",
+      "iso2": "VG",
+      "nameKey": "country.VGB",
+      "capitalKey": "capital.VGB",
+      "continent": "North America",
+      "subregion": "Caribbean",
+      "population": 30030,
+      "areaKm2": 32.97,
+      "neighbours": [],
+      "flag": "flag_vg",
+      "difficulty": 1,
+      "tags": [
+        "dependency"
+      ]
+    },
+    {
+      "id": "VIR",
+      "iso2": "VI",
+      "nameKey": "country.VIR",
+      "capitalKey": "capital.VIR",
+      "continent": "North America",
+      "subregion": "Caribbean",
+      "population": 106631,
+      "areaKm2": 155,
+      "neighbours": [],
+      "flag": "flag_vi",
+      "difficulty": 1,
+      "tags": [
+        "dependency"
+      ]
+    },
+    {
+      "id": "VNM",
+      "iso2": "VN",
+      "nameKey": "country.VNM",
+      "capitalKey": "capital.VNM",
+      "continent": "Asia",
+      "subregion": "South-Eastern Asia",
+      "population": 96462106,
+      "areaKm2": 329247,
+      "neighbours": [
+        "CHN",
+        "KHM",
+        "LAO"
+      ],
+      "flag": "flag_vn",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "VUT",
+      "iso2": "VU",
+      "nameKey": "country.VUT",
+      "capitalKey": "capital.VUT",
+      "continent": "Oceania",
+      "subregion": "Melanesia",
+      "population": 299882,
+      "areaKm2": 9701,
+      "neighbours": [],
+      "flag": "flag_vu",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "WLF",
+      "iso2": "WF",
+      "nameKey": "country.WLF",
+      "capitalKey": "capital.WLF",
+      "continent": "Oceania",
+      "subregion": "Polynesia",
+      "population": 11558,
+      "areaKm2": 40.21,
+      "neighbours": [],
+      "flag": "flag_wf",
+      "difficulty": 1,
+      "tags": [
+        "dependency"
+      ]
+    },
+    {
+      "id": "WSM",
+      "iso2": "WS",
+      "nameKey": "country.WSM",
+      "capitalKey": "capital.WSM",
+      "continent": "Oceania",
+      "subregion": "Polynesia",
+      "population": 197097,
+      "areaKm2": 2539,
+      "neighbours": [],
+      "flag": "flag_ws",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "YEM",
+      "iso2": "YE",
+      "nameKey": "country.YEM",
+      "capitalKey": "capital.YEM",
+      "continent": "Asia",
+      "subregion": "Western Asia",
+      "population": 29161922,
+      "areaKm2": 453931,
+      "neighbours": [
+        "OMN",
+        "SAU"
+      ],
+      "flag": "flag_ye",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "ZAF",
+      "iso2": "ZA",
+      "nameKey": "country.ZAF",
+      "capitalKey": "capital.ZAF",
+      "continent": "Africa",
+      "subregion": "Southern Africa",
+      "population": 58558270,
+      "areaKm2": 1221007,
+      "neighbours": [
+        "BWA",
+        "LSO",
+        "MOZ",
+        "NAM",
+        "SWZ",
+        "ZWE"
+      ],
+      "flag": "flag_za",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "ZMB",
+      "iso2": "ZM",
+      "nameKey": "country.ZMB",
+      "capitalKey": "capital.ZMB",
+      "continent": "Africa",
+      "subregion": "Eastern Africa",
+      "population": 17861030,
+      "areaKm2": 754542,
+      "neighbours": [
+        "AGO",
+        "COD",
+        "MOZ",
+        "MWI",
+        "NAM",
+        "TZA",
+        "ZWE"
+      ],
+      "flag": "flag_zm",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
+      ]
+    },
+    {
+      "id": "ZWE",
+      "iso2": "ZW",
+      "nameKey": "country.ZWE",
+      "capitalKey": "capital.ZWE",
+      "continent": "Africa",
+      "subregion": "Eastern Africa",
+      "population": 14645468,
+      "areaKm2": 390382,
+      "neighbours": [
+        "BWA",
+        "MOZ",
+        "ZAF",
+        "ZMB"
+      ],
+      "flag": "flag_zw",
+      "difficulty": 1,
+      "tags": [
+        "sovereign"
       ]
     }
   ]

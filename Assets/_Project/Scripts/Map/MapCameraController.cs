@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.EnhancedTouch;
@@ -8,19 +9,23 @@ namespace GeoPuzzle.Map
     /// <summary>
     /// Pans and zooms an orthographic camera over the world map.
     /// One finger drags, two fingers pinch around their midpoint. In the editor, mouse drag and wheel do the same.
+    /// Pointer movement is measured from positions remembered each frame rather than the input deltas,
+    /// which can use different units from positions on high-DPI screens and made the map trail the cursor.
     /// </summary>
     [RequireComponent(typeof(Camera))]
     public class MapCameraController : MonoBehaviour
     {
         [Tooltip("World-space rectangle the camera view must stay inside")]
         [SerializeField] Rect mapBounds = new Rect(-18f, -9f, 36f, 18f);
-        [SerializeField] float minOrthoSize = 0.5f;
+        [SerializeField] float minOrthoSize = 0.15f;
         [SerializeField] float maxOrthoSize = 9f;
         [SerializeField] float mouseWheelZoomSpeed = 0.1f;
-        [SerializeField] float inertiaDamping = 6f;
+        [SerializeField] float inertiaDamping = 4f;
 
+        readonly Dictionary<int, Vector2> lastTouchPositions = new Dictionary<int, Vector2>();
         Camera cam;
         Vector2 velocity;
+        Vector2? lastMousePosition;
 
         void Awake() => cam = GetComponent<Camera>();
 
@@ -28,17 +33,38 @@ namespace GeoPuzzle.Map
 
         void OnDisable() => EnhancedTouchSupport.Disable();
 
+        /// <summary>Limits panning to the given map area and zooms out to show all of it.</summary>
+        public void FitTo(Rect bounds)
+        {
+            mapBounds = bounds;
+            maxOrthoSize = bounds.height * 0.5f;
+            cam.orthographicSize = maxOrthoSize;
+            transform.position = new Vector3(bounds.center.x, bounds.center.y, transform.position.z);
+            velocity = Vector2.zero;
+        }
+
         void Update()
         {
             var touches = Touch.activeTouches;
             if (touches.Count >= 2)
                 Pinch(touches[0], touches[1]);
             else if (touches.Count == 1)
-                Drag(touches[0].screenPosition - touches[0].delta, touches[0].screenPosition);
+                Drag(PreviousPosition(touches[0]), touches[0].screenPosition);
             else if (!HandleMouse())
                 ApplyInertia();
 
+            RememberTouches(touches);
             Clamp();
+        }
+
+        Vector2 PreviousPosition(Touch touch) =>
+            lastTouchPositions.TryGetValue(touch.touchId, out var previous) ? previous : touch.screenPosition;
+
+        void RememberTouches(UnityEngine.InputSystem.Utilities.ReadOnlyArray<Touch> touches)
+        {
+            lastTouchPositions.Clear();
+            foreach (var touch in touches)
+                lastTouchPositions[touch.touchId] = touch.screenPosition;
         }
 
         bool HandleMouse()
@@ -52,10 +78,14 @@ namespace GeoPuzzle.Map
                 ZoomAround(mouse.position.ReadValue(), 1f - Mathf.Sign(scroll) * mouseWheelZoomSpeed);
 
             if (!mouse.leftButton.isPressed)
+            {
+                lastMousePosition = null;
                 return false;
+            }
 
             var position = mouse.position.ReadValue();
-            Drag(position - mouse.delta.ReadValue(), position);
+            Drag(lastMousePosition ?? position, position);
+            lastMousePosition = position;
             return true;
         }
 
@@ -63,14 +93,15 @@ namespace GeoPuzzle.Map
         {
             Vector2 worldDelta = ScreenToWorld(fromScreen) - ScreenToWorld(toScreen);
             transform.position += (Vector3)worldDelta;
+            // Smoothed so that a still frame just before release does not cancel the fling.
             if (Time.deltaTime > 0f)
-                velocity = worldDelta / Time.deltaTime;
+                velocity = Vector2.Lerp(velocity, worldDelta / Time.deltaTime, 0.5f);
         }
 
         void Pinch(Touch a, Touch b)
         {
-            var previousA = a.screenPosition - a.delta;
-            var previousB = b.screenPosition - b.delta;
+            var previousA = PreviousPosition(a);
+            var previousB = PreviousPosition(b);
             var previousDistance = Vector2.Distance(previousA, previousB);
             var distance = Vector2.Distance(a.screenPosition, b.screenPosition);
             var midpoint = (a.screenPosition + b.screenPosition) * 0.5f;

@@ -23,6 +23,8 @@ namespace GeoPuzzle.Editor
         const string ScenesFolder = "Assets/_Project/Scenes";
         const string CountriesJsonPath = "Assets/_Project/Data/countries.json";
         const string EconomyConfigPath = "Assets/_Project/Data/Config/economy_config.json";
+        const string WorldMapPath = "Assets/_Project/Data/Map/world_map.json";
+        const string MapMaterialPath = "Assets/_Project/Art/Materials/Map.mat";
         static readonly string[] SceneNames = { "Boot", "MainMenu", "Game" };
 
         [MenuItem("GeoPuzzle/Setup/Run Full Setup", priority = 0)]
@@ -31,6 +33,7 @@ namespace GeoPuzzle.Editor
             ApplyEditorSettings();
             ApplyAndroidSettings();
             CreateScenes();
+            AddWorldMapToGameScene();
             Debug.Log("GeoPuzzle setup finished");
         }
 
@@ -102,6 +105,53 @@ namespace GeoPuzzle.Editor
             EditorBuildSettings.scenes = buildScenes;
 
             EditorSceneManager.OpenScene($"{ScenesFolder}/Boot.unity");
+        }
+
+        [MenuItem("GeoPuzzle/Setup/Add World Map To Game Scene")]
+        public static void AddWorldMapToGameScene()
+        {
+            var scenePath = $"{ScenesFolder}/Game.unity";
+            if (!File.Exists(scenePath))
+            {
+                Debug.LogError("Game scene is missing; run Create Scenes first");
+                return;
+            }
+            if (!EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo())
+                return;
+
+            var scene = EditorSceneManager.OpenScene(scenePath);
+            if (Object.FindAnyObjectByType<WorldMapView>() == null)
+            {
+                var mapObject = new GameObject("WorldMap");
+                var view = mapObject.AddComponent<WorldMapView>();
+                mapObject.AddComponent<MapTapInput>();
+                var serialized = new SerializedObject(view);
+                serialized.FindProperty("mapJson").objectReferenceValue =
+                    AssetDatabase.LoadAssetAtPath<TextAsset>(WorldMapPath);
+                serialized.FindProperty("material").objectReferenceValue = GetOrCreateMapMaterial();
+                serialized.ApplyModifiedPropertiesWithoutUndo();
+            }
+
+            var cam = Camera.main;
+            if (cam != null)
+            {
+                cam.orthographic = true;
+                if (cam.GetComponent<MapCameraController>() == null)
+                    cam.gameObject.AddComponent<MapCameraController>();
+            }
+
+            EditorSceneManager.SaveScene(scene);
+        }
+
+        static Material GetOrCreateMapMaterial()
+        {
+            var existing = AssetDatabase.LoadAssetAtPath<Material>(MapMaterialPath);
+            if (existing != null)
+                return existing;
+            Directory.CreateDirectory(Path.GetDirectoryName(MapMaterialPath));
+            var material = new Material(Shader.Find("Sprites/Default")) { name = "Map" };
+            AssetDatabase.CreateAsset(material, MapMaterialPath);
+            return material;
         }
 
         static void AddBootstrap()
