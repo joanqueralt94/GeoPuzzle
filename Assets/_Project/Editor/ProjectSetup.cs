@@ -1,6 +1,8 @@
 using System.IO;
+using System.Linq;
 using GeoPuzzle.Core;
 using GeoPuzzle.Map;
+using GeoPuzzle.UI;
 using UnityEditor;
 using UnityEditor.Build;
 using UnityEditor.SceneManagement;
@@ -25,7 +27,13 @@ namespace GeoPuzzle.Editor
         const string EconomyConfigPath = "Assets/_Project/Data/Config/economy_config.json";
         const string WorldMapPath = "Assets/_Project/Data/Map/world_map.json";
         const string MapMaterialPath = "Assets/_Project/Art/Materials/Map.mat";
-        static readonly string[] SceneNames = { "Boot", "MainMenu", "Game" };
+        const string FlagLibraryPath = "Assets/_Project/Data/FlagLibrary.asset";
+        static readonly string[] EnglishTextPaths =
+        {
+            "Assets/_Project/Data/Localization/countries.en.json",
+            "Assets/_Project/Data/Localization/ui.en.json",
+        };
+        static readonly string[] SceneNames = { "Boot", "MainMenu", "Game", "FlagQuiz" };
 
         [MenuItem("GeoPuzzle/Setup/Run Full Setup", priority = 0)]
         public static void RunAll()
@@ -34,6 +42,8 @@ namespace GeoPuzzle.Editor
             ApplyAndroidSettings();
             CreateScenes();
             AddWorldMapToGameScene();
+            BuildFlagLibrary();
+            SetUpScreens();
             Debug.Log("GeoPuzzle setup finished");
         }
 
@@ -154,15 +164,108 @@ namespace GeoPuzzle.Editor
             return material;
         }
 
-        static void AddBootstrap()
+        static void AddBootstrap() => AssignBootstrapData(new GameObject("Bootstrap").AddComponent<Bootstrap>());
+
+        static void AssignBootstrapData(Bootstrap bootstrap)
         {
-            var bootstrap = new GameObject("Bootstrap").AddComponent<Bootstrap>();
             var serialized = new SerializedObject(bootstrap);
             serialized.FindProperty("countriesJson").objectReferenceValue =
                 AssetDatabase.LoadAssetAtPath<TextAsset>(CountriesJsonPath);
             serialized.FindProperty("economyConfigJson").objectReferenceValue =
                 AssetDatabase.LoadAssetAtPath<TextAsset>(EconomyConfigPath);
+            var texts = serialized.FindProperty("englishTexts");
+            texts.arraySize = EnglishTextPaths.Length;
+            for (var i = 0; i < EnglishTextPaths.Length; i++)
+                texts.GetArrayElementAtIndex(i).objectReferenceValue =
+                    AssetDatabase.LoadAssetAtPath<TextAsset>(EnglishTextPaths[i]);
             serialized.ApplyModifiedPropertiesWithoutUndo();
+        }
+
+        /// <summary>Collects every flag sprite into the FlagLibrary asset the quiz screens read.</summary>
+        [MenuItem("GeoPuzzle/Setup/Build Flag Library")]
+        public static FlagLibrary BuildFlagLibrary()
+        {
+            var library = AssetDatabase.LoadAssetAtPath<FlagLibrary>(FlagLibraryPath);
+            if (library == null)
+            {
+                library = ScriptableObject.CreateInstance<FlagLibrary>();
+                AssetDatabase.CreateAsset(library, FlagLibraryPath);
+            }
+
+            var entries = AssetDatabase.FindAssets("t:Sprite", new[] { FlagImporter.FlagsFolder })
+                .Select(AssetDatabase.GUIDToAssetPath)
+                .OrderBy(path => path)
+                .Select(path => new FlagLibrary.Entry
+                {
+                    flag = Path.GetFileNameWithoutExtension(path),
+                    sprite = AssetDatabase.LoadAssetAtPath<Sprite>(path),
+                })
+                .Where(entry => entry.sprite != null)
+                .ToList();
+            library.SetEntries(entries);
+            EditorUtility.SetDirty(library);
+            AssetDatabase.SaveAssets();
+            Debug.Log($"Flag library: {entries.Count} flags");
+            return library;
+        }
+
+        /// <summary>
+        /// Wires the Boot texts, the menu and the Flag Quizz screen, and makes every playable scene load
+        /// Boot first when started directly in the editor.
+        /// </summary>
+        [MenuItem("GeoPuzzle/Setup/Set Up Screens")]
+        public static void SetUpScreens()
+        {
+            if (!EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo())
+                return;
+
+            EditScene("Boot", () =>
+            {
+                var bootstrap = Object.FindAnyObjectByType<Bootstrap>();
+                if (bootstrap == null)
+                    AddBootstrap();
+                else
+                    AssignBootstrapData(bootstrap);
+            });
+            EditScene("MainMenu", () =>
+            {
+                EnsureRequireBoot();
+                if (Object.FindAnyObjectByType<MainMenuController>() == null)
+                    new GameObject("MainMenu").AddComponent<MainMenuController>();
+            });
+            EditScene("Game", EnsureRequireBoot);
+            EditScene("FlagQuiz", () =>
+            {
+                EnsureRequireBoot();
+                var controller = Object.FindAnyObjectByType<FlagQuizController>();
+                if (controller == null)
+                    controller = new GameObject("FlagQuiz").AddComponent<FlagQuizController>();
+                var serialized = new SerializedObject(controller);
+                serialized.FindProperty("flags").objectReferenceValue =
+                    AssetDatabase.LoadAssetAtPath<FlagLibrary>(FlagLibraryPath);
+                serialized.ApplyModifiedPropertiesWithoutUndo();
+            });
+
+            EditorSceneManager.OpenScene($"{ScenesFolder}/Boot.unity");
+        }
+
+        static void EditScene(string name, System.Action edit)
+        {
+            var path = $"{ScenesFolder}/{name}.unity";
+            if (!File.Exists(path))
+            {
+                Debug.LogError($"{name} scene is missing; run Create Scenes first");
+                return;
+            }
+            var scene = EditorSceneManager.OpenScene(path);
+            edit();
+            EditorSceneManager.SaveScene(scene);
+        }
+
+        static void EnsureRequireBoot()
+        {
+            if (Object.FindAnyObjectByType<RequireBoot>() == null)
+                new GameObject("RequireBoot").AddComponent<RequireBoot>();
         }
     }
 }

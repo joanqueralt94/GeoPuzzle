@@ -10,8 +10,13 @@ namespace GeoPuzzle.Core
     {
         public const string MainMenuScene = "MainMenu";
 
+        /// <summary>Scene to open after loading instead of the main menu (set by <see cref="RequireBoot"/>).</summary>
+        public static string ReturnToScene;
+
         [SerializeField] TextAsset countriesJson;
         [SerializeField] TextAsset economyConfigJson;
+        [Tooltip("English text files: countries.en.json and ui.en.json")]
+        [SerializeField] TextAsset[] englishTexts = new TextAsset[0];
 
         void Start()
         {
@@ -26,10 +31,13 @@ namespace GeoPuzzle.Core
                 Debug.LogWarning($"Country data: {error}");
 
             var config = GameConfig.FromJson(economyConfigJson.text);
+            var texts = new Localizer("en", englishTexts.Where(t => t != null).Select(t => t.text));
 
-            GameServices.Initialize(countries, config);
+            GameServices.Initialize(countries, config, texts);
             Debug.Log($"Bootstrap: loaded {countries.All.Count} countries and {config.Keys.Count()} config values");
-            SceneManager.LoadScene(MainMenuScene);
+            var next = string.IsNullOrEmpty(ReturnToScene) ? MainMenuScene : ReturnToScene;
+            ReturnToScene = null;
+            SceneManager.LoadScene(next);
         }
     }
 }

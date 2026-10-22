@@ -197,7 +197,8 @@ def main():
             "polygons": polygons,
         })
         if playable:
-            iso2 = p["ISO_A2"] if p["ISO_A2"] != "-99" else p["ISO_A2_EH"]
+            # ISO_A2 is "CN-TW" for Taiwan and "-99" for France/Norway; ISO_A2_EH has the plain code.
+            iso2 = p["ISO_A2"] if len(p["ISO_A2"]) == 2 else p["ISO_A2_EH"]
             records.append({
                 "id": cid,
                 "iso2": iso2,

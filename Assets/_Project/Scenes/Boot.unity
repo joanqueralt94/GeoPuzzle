@@ -150,6 +150,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: GeoPuzzle.Core::GeoPuzzle.Core.Bootstrap
   countriesJson: {fileID: 4900000, guid: 122e1d1759905466f9662205a4dd9c66, type: 3}
   economyConfigJson: {fileID: 4900000, guid: 890828c7701294b4890934a55a84f638, type: 3}
+  englishTexts:
+  - {fileID: 4900000, guid: b12feb80e44dd44c7a069e8694d34911, type: 3}
+  - {fileID: 4900000, guid: 2edd0f7f4703743ddab297ddcbd6b8c5, type: 3}
 --- !u!4 &1315056943
 Transform:
   m_ObjectHideFlags: 0

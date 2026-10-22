@@ -4226,7 +4226,7 @@
     },
     {
       "id": "TWN",
-      "iso2": "CN-TW",
+      "iso2": "TW",
       "nameKey": "country.TWN",
       "capitalKey": "capital.TWN",
       "continent": "Asia",
@@ -4234,7 +4234,7 @@
       "population": 23568378,
       "areaKm2": 35875,
       "neighbours": [],
-      "flag": "flag_cn-tw",
+      "flag": "flag_tw",
       "difficulty": 1,
       "tags": [
         "sovereign"

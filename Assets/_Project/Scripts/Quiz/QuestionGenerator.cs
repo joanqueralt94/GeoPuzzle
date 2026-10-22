@@ -38,6 +38,16 @@ namespace GeoPuzzle.Quiz
             return Create(kind, target.id, optionCount);
         }
 
+        /// <summary>Picks a random target that is not in <paramref name="exclude"/>; falls back to any country.</summary>
+        public GeneratedQuestion CreateRandom(QuestionKind kind, ICollection<string> exclude, int optionCount = 4)
+        {
+            var candidates = countries.All.Where(c => !exclude.Contains(c.id)).ToList();
+            if (candidates.Count == 0)
+                return CreateRandom(kind, optionCount);
+            var target = candidates[random.Next(candidates.Count)];
+            return Create(kind, target.id, optionCount);
+        }
+
         List<string> PickDistractors(CountryRecord target, int count)
         {
             var picked = new List<string>();

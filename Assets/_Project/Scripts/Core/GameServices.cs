@@ -9,12 +9,15 @@ namespace GeoPuzzle.Core
 
         public static GameConfig Config { get; private set; }
 
-        public static bool IsReady => Countries != null && Config != null;
+        public static Localizer Texts { get; private set; }
 
-        public static void Initialize(CountryDatabase countries, GameConfig config)
+        public static bool IsReady => Countries != null && Config != null && Texts != null;
+
+        public static void Initialize(CountryDatabase countries, GameConfig config, Localizer texts)
         {
             Countries = countries;
             Config = config;
+            Texts = texts;
         }
     }
 }
