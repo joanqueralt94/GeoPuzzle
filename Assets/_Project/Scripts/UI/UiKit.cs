@@ -19,6 +19,7 @@ namespace GeoPuzzle.UI
         public static readonly Color TextLight = Color.white;
         public static readonly Color Correct = new Color(0.35f, 0.75f, 0.38f);
         public static readonly Color Wrong = new Color(0.90f, 0.33f, 0.30f);
+        public static readonly Color Coin = new Color(1f, 0.82f, 0.25f);
 
         static Font font;
 

@@ -33,7 +33,10 @@ namespace GeoPuzzle.Core
             var config = GameConfig.FromJson(economyConfigJson.text);
             var texts = new Localizer("en", englishTexts.Where(t => t != null).Select(t => t.text));
 
-            GameServices.Initialize(countries, config, texts);
+            var wallet = new Wallet(new PlayerPrefsStore(), config.GetInt("wallet.start_coins"));
+            var rewardedAds = TestRewardedAds.Create(config.GetBool("ads.rewarded.enabled"));
+
+            GameServices.Initialize(countries, config, texts, wallet, rewardedAds);
             Debug.Log($"Bootstrap: loaded {countries.All.Count} countries and {config.Keys.Count()} config values");
             var next = string.IsNullOrEmpty(ReturnToScene) ? MainMenuScene : ReturnToScene;
             ReturnToScene = null;

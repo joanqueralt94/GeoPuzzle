@@ -14,20 +14,6 @@ namespace GeoPuzzle.Quiz
         public int Options = 4;
     }
 
-    public enum RoundState
-    {
-        Playing,
-        Won,
-        Lost,
-    }
-
-    public enum LoseReason
-    {
-        None,
-        OutOfHearts,
-        OutOfTime,
-    }
-
     public struct AnswerResult
     {
         public readonly bool Correct;
@@ -45,7 +31,7 @@ namespace GeoPuzzle.Quiz
     /// and hearts that a wrong answer costs. Losing all hearts or running out of time ends the level;
     /// <see cref="PlayOn"/> resumes it, for a play-on paid with coins or an ad.
     /// </summary>
-    public class FlagQuizRound
+    public class FlagQuizRound : IPlayOnLevel
     {
         readonly QuestionGenerator generator;
         readonly FlagQuizSettings settings;

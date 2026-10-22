@@ -53,6 +53,8 @@ python3 Tools/economy/export_economy.py Tools/economy/economy_config.xlsx Assets
 
 Game code reads these through `GameServices.Config` (`GetInt`, `GetFloat`, `GetBool`, `GetString`) and never hardcodes them. Key names match Remote Config keys, so online overrides can be layered on later.
 
+Play-on is shared by every mode: a mode's round implements `IPlayOnLevel`, and its screen opens `PlayOnPanel` when the level is lost. Prices and boosts come from the `playon.*` keys (add `playon.hearts.coins_4` and so on to give more price steps). Coins live in `GameServices.Wallet`; rewarded videos go through `GameServices.RewardedAds`, a test ad until an ad network is added.
+
 ## Data and credits
 
 - Country shapes: [Natural Earth](https://www.naturalearthdata.com/) (public domain)

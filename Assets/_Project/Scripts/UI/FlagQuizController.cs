@@ -25,6 +25,8 @@ namespace GeoPuzzle.UI
 
         Localizer texts;
         FlagQuizRound round;
+        PlayOnSession playOn;
+        PlayOnPanel playOnPanel;
         bool showingFeedback;
 
         Text progressLabel;
@@ -36,6 +38,7 @@ namespace GeoPuzzle.UI
         Text resultsTitle;
         Text resultsStars;
         Text resultsScore;
+        Text resultsCoins;
 
         void Start()
         {
@@ -68,6 +71,7 @@ namespace GeoPuzzle.UI
             var pool = new CountryDatabase(GameServices.Countries.All.Where(c => c.tags.Contains(QuestionTag)));
             var generator = new QuestionGenerator(pool, Environment.TickCount);
             round = new FlagQuizRound(generator, ReadSettings(GameServices.Config));
+            playOn = new PlayOnSession(GameRules.PlayOn(GameServices.Config));
             resultsPanel.SetActive(false);
             ShowQuestion();
         }
@@ -101,8 +105,19 @@ namespace GeoPuzzle.UI
             heartsLabel.text = texts.Format("ui.quiz.hearts", round.HeartsLeft);
             var seconds = Mathf.CeilToInt(round.TimeLeft);
             timerLabel.text = $"{seconds / 60}:{seconds % 60:00}";
-            if (round.State == RoundState.Lost && !showingFeedback && !resultsPanel.activeSelf)
+            if (round.State == RoundState.Lost && !showingFeedback && !playOnPanel.IsOpen && !resultsPanel.activeSelf)
+                OfferPlayOn();
+        }
+
+        void OfferPlayOn() => playOnPanel.Show(playOn, round, OnPlayedOn, ShowResults);
+
+        void OnPlayedOn()
+        {
+            // A heart play-on on the last question can finish the level straight away.
+            if (round.State == RoundState.Won)
                 ShowResults();
+            else
+                ShowQuestion();
         }
 
         void OnOptionClicked(int index)
@@ -128,6 +143,8 @@ namespace GeoPuzzle.UI
 
             if (round.State == RoundState.Playing)
                 ShowQuestion();
+            else if (round.State == RoundState.Lost)
+                OfferPlayOn();
             else
                 ShowResults();
         }
@@ -138,6 +155,13 @@ namespace GeoPuzzle.UI
                 : round.LoseReason == LoseReason.OutOfTime ? "ui.quiz.lost_time" : "ui.quiz.lost_hearts");
             resultsStars.text = texts.Format("ui.quiz.stars", round.Stars);
             resultsScore.text = texts.Format("ui.quiz.score", round.CorrectAnswers, round.QuestionCount);
+            resultsCoins.text = "";
+            if (round.State == RoundState.Won)
+            {
+                var coins = GameRules.LevelClearCoins(GameServices.Config, round.Stars);
+                GameServices.Wallet.Add(coins);
+                resultsCoins.text = texts.Format("ui.quiz.coins_earned", coins);
+            }
             resultsPanel.SetActive(true);
         }
 
@@ -175,6 +199,7 @@ namespace GeoPuzzle.UI
                 optionButtons[i] = button;
             }
 
+            playOnPanel = new PlayOnPanel(canvas, texts);
             BuildResultsPanel(canvas);
         }
 
@@ -189,6 +214,8 @@ namespace GeoPuzzle.UI
             UiKit.Place(resultsStars.rectTransform, 0.1f, 0.54f, 0.9f, 0.65f);
             resultsScore = UiKit.Label(panel.transform, "Score", 52, TextAnchor.MiddleCenter, UiKit.TextLight);
             UiKit.Place(resultsScore.rectTransform, 0.1f, 0.44f, 0.9f, 0.54f);
+            resultsCoins = UiKit.Label(panel.transform, "Coins", 52, TextAnchor.MiddleCenter, UiKit.Coin);
+            UiKit.Place(resultsCoins.rectTransform, 0.1f, 0.34f, 0.9f, 0.44f);
 
             var again = UiKit.Button(panel.transform, "PlayAgain", texts.Get("ui.quiz.play_again"), 56, StartRound);
             UiKit.Place((RectTransform)again.transform, 0.18f, 0.16f, 0.48f, 0.30f);

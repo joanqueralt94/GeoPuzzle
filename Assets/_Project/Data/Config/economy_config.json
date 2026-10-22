@@ -68,5 +68,6 @@
   "iap.coins_l.price_eur": 9.99,
   "iap.coins_l.coins": 3800,
   "iap.coins_xl.price_eur": 19.99,
-  "iap.coins_xl.coins": 8500
+  "iap.coins_xl.coins": 8500,
+  "wallet.start_coins": 200
 }
