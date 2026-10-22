@@ -1,0 +1,15 @@
+{
+  "ui.title": "GeoQuizz",
+  "ui.menu.flag_quiz": "Flag Quizz",
+  "ui.menu.world_map": "World Map",
+  "ui.quiz.which_country": "Which country has this flag?",
+  "ui.quiz.question": "Question {0}/{1}",
+  "ui.quiz.hearts": "Hearts: {0}",
+  "ui.quiz.won": "Level complete!",
+  "ui.quiz.lost_hearts": "Out of hearts",
+  "ui.quiz.lost_time": "Time's up",
+  "ui.quiz.stars": "Stars: {0}/3",
+  "ui.quiz.score": "{0} of {1} correct",
+  "ui.quiz.play_again": "Play again",
+  "ui.quiz.menu": "Menu"
+}

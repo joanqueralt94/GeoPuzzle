@@ -1,7 +1,7 @@
 {
     "name": "GeoPuzzle.Editor",
     "rootNamespace": "GeoPuzzle.Editor",
-    "references": ["GeoPuzzle.Core", "GeoPuzzle.Map"],
+    "references": ["GeoPuzzle.Core", "GeoPuzzle.Map", "GeoPuzzle.UI"],
     "includePlatforms": ["Editor"],
     "autoReferenced": false
 }

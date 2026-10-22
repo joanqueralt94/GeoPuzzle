@@ -1,0 +1,12 @@
+{
+    "name": "GeoPuzzle.UI",
+    "rootNamespace": "GeoPuzzle.UI",
+    "references": [
+        "GeoPuzzle.Core",
+        "GeoPuzzle.Data",
+        "GeoPuzzle.Quiz",
+        "UnityEngine.UI",
+        "Unity.InputSystem"
+    ],
+    "autoReferenced": true
+}

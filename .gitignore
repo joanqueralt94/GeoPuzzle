@@ -109,7 +109,7 @@ InitTestScene*.unity*
 /[Aa]ssets/[Ss]ceneDependencyCache*
 
 # GeoPuzzle: map pipeline downloads and Python caches
-/Tools/map_pipeline/data_sources/
+/Tools/**/data_sources/
 /Tools/**/.venv/
 __pycache__/
 
