@@ -6,12 +6,14 @@ using UnityEngine.SceneManagement;
 namespace GeoPuzzle.UI
 {
     /// <summary>
-    /// A Back button in the top-left corner of every screen except Boot and the main menu, plus the
-    /// Android back gesture (Escape in the editor). Added automatically, so new scenes get it too.
+    /// A Back button in the top-left corner of every screen except Boot, the main menu and level screens
+    /// (which have Home instead), plus the Android back gesture (Escape in the editor). Added automatically,
+    /// so new screens get it too.
     /// </summary>
     public class BackButton : MonoBehaviour
     {
-        static readonly string[] ScenesWithoutBack = { RequireBoot.BootScene, Bootstrap.MainMenuScene };
+        static readonly string[] ScenesWithoutBack =
+            { RequireBoot.BootScene, Bootstrap.MainMenuScene, MainMenuController.FlagQuizScene };
 
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
         static void Init()
@@ -32,11 +34,7 @@ namespace GeoPuzzle.UI
             var canvas = UiKit.CreateCanvas("BackCanvas");
             canvas.sortingOrder = 100;
             canvas.gameObject.AddComponent<BackButton>();
-            var button = UiKit.Button(canvas.transform, "Back", GameServices.Texts.Get("ui.back"), 44, SceneNavigator.Back);
-            var rect = (RectTransform)button.transform;
-            rect.anchorMin = rect.anchorMax = rect.pivot = new Vector2(0f, 1f);
-            rect.anchoredPosition = new Vector2(24f, -24f);
-            rect.sizeDelta = new Vector2(200f, 90f);
+            UiKit.CornerButton(canvas.transform, "Back", GameServices.Texts.Get("ui.back"), SceneNavigator.Back);
         }
 
         void Update()

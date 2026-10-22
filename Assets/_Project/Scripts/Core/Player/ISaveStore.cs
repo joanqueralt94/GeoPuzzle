@@ -6,6 +6,8 @@ namespace GeoPuzzle.Core
         bool HasKey(string key);
         int GetInt(string key, int fallback);
         void SetInt(string key, int value);
+        string GetString(string key, string fallback);
+        void SetString(string key, string value);
         void Save();
     }
 }

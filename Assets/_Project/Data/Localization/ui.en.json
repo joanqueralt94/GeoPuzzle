@@ -22,5 +22,14 @@
   "ui.playon.ad_playing": "Playing ad...",
   "ui.playon.ad_failed": "No ad available right now",
   "ui.playon.give_up": "Give up",
-  "ui.back": "Back"
+  "ui.back": "Back",
+  "ui.home": "Home",
+  "ui.quit.title": "Quit this level?",
+  "ui.quit.message": "Quitting counts as a lost level. Lives -{0}",
+  "ui.quit.confirm": "Quit",
+  "ui.quit.cancel": "Keep playing",
+  "ui.quiz.lives_lost": "Lives -{0}",
+  "ui.lives.count": "Lives: {0}/{1}",
+  "ui.lives.next": "Next life in {0}",
+  "ui.lives.none": "No lives left. Next life in {0}"
 }

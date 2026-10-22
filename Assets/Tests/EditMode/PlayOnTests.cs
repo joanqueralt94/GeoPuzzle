@@ -34,15 +34,6 @@ namespace GeoPuzzle.Tests
             }
         }
 
-        class MemoryStore : ISaveStore
-        {
-            public readonly Dictionary<string, int> Values = new Dictionary<string, int>();
-            public bool HasKey(string key) => Values.ContainsKey(key);
-            public int GetInt(string key, int fallback) => Values.TryGetValue(key, out var v) ? v : fallback;
-            public void SetInt(string key, int value) => Values[key] = value;
-            public void Save() { }
-        }
-
         static PlayOnSession MakeSession() => new PlayOnSession(new PlayOnSettings
         {
             FullHearts = 3,
