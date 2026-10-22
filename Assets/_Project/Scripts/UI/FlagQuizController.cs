@@ -171,9 +171,9 @@ namespace GeoPuzzle.UI
             UiKit.Panel(canvas, "Background", UiKit.Background);
 
             progressLabel = UiKit.Label(canvas, "Progress", 48, TextAnchor.MiddleLeft, UiKit.TextLight);
-            UiKit.Place(progressLabel.rectTransform, 0.04f, 0.88f, 0.34f, 0.98f);
+            UiKit.Place(progressLabel.rectTransform, 0.14f, 0.88f, 0.38f, 0.98f);
             timerLabel = UiKit.Label(canvas, "Timer", 56, TextAnchor.MiddleCenter, UiKit.TextLight);
-            UiKit.Place(timerLabel.rectTransform, 0.38f, 0.88f, 0.62f, 0.98f);
+            UiKit.Place(timerLabel.rectTransform, 0.40f, 0.88f, 0.60f, 0.98f);
             heartsLabel = UiKit.Label(canvas, "Hearts", 48, TextAnchor.MiddleRight, UiKit.TextLight);
             UiKit.Place(heartsLabel.rectTransform, 0.66f, 0.88f, 0.96f, 0.98f);
 

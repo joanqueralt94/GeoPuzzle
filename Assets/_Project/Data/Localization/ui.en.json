@@ -21,5 +21,6 @@
   "ui.playon.ad_time": "Watch an ad: time +{0}s",
   "ui.playon.ad_playing": "Playing ad...",
   "ui.playon.ad_failed": "No ad available right now",
-  "ui.playon.give_up": "Give up"
+  "ui.playon.give_up": "Give up",
+  "ui.back": "Back"
 }

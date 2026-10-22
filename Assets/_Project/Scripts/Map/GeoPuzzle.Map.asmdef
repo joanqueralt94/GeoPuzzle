@@ -1,6 +1,6 @@
 {
     "name": "GeoPuzzle.Map",
     "rootNamespace": "GeoPuzzle.Map",
-    "references": ["GeoPuzzle.Data", "Unity.InputSystem"],
+    "references": ["GeoPuzzle.Data", "Unity.InputSystem", "UnityEngine.UI"],
     "autoReferenced": true
 }
