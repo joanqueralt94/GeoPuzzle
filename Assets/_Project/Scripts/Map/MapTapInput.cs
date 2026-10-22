@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.EnhancedTouch;
 using Touch = UnityEngine.InputSystem.EnhancedTouch.Touch;
@@ -69,7 +70,8 @@ namespace GeoPuzzle.Map
 
         void Begin(Vector2 screenPosition)
         {
-            tracking = true;
+            // A press on a button (such as Back) is not a map tap.
+            tracking = EventSystem.current == null || !EventSystem.current.IsPointerOverGameObject();
             downPosition = screenPosition;
             downTime = Time.unscaledTime;
         }

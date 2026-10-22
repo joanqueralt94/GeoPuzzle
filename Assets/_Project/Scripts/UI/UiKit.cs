@@ -19,6 +19,7 @@ namespace GeoPuzzle.UI
         public static readonly Color TextLight = Color.white;
         public static readonly Color Correct = new Color(0.35f, 0.75f, 0.38f);
         public static readonly Color Wrong = new Color(0.90f, 0.33f, 0.30f);
+        public static readonly Color Coin = new Color(1f, 0.82f, 0.25f);
 
         static Font font;
 
@@ -86,6 +87,24 @@ namespace GeoPuzzle.UI
         }
 
         public static Text ButtonLabel(Button button) => button.GetComponentInChildren<Text>();
+
+        /// <summary>A small button pinned to the top-left corner, used for Back and Home.</summary>
+        public static Button CornerButton(Transform parent, string name, string label, Action onClick)
+        {
+            var button = Button(parent, name, label, 44, onClick);
+            var rect = (RectTransform)button.transform;
+            rect.anchorMin = rect.anchorMax = rect.pivot = new Vector2(0f, 1f);
+            rect.anchoredPosition = new Vector2(24f, -24f);
+            rect.sizeDelta = new Vector2(200f, 90f);
+            return button;
+        }
+
+        /// <summary>Minutes and seconds, such as 4:05.</summary>
+        public static string Clock(TimeSpan time)
+        {
+            var seconds = (int)Math.Ceiling(time.TotalSeconds);
+            return $"{seconds / 60}:{seconds % 60:00}";
+        }
 
         public static T New<T>(Transform parent, string name) where T : Component
         {
